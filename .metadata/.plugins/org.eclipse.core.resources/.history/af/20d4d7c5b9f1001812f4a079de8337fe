@@ -1,0 +1,148 @@
+// 
+//                           SimuLTE
+// 
+// This file is part of a software released under the license included in file
+// "license.pdf". This license can be also found at http://www.ltesimulator.com/
+// The above file and the present reference are part of the software itself, 
+// and cannot be removed from it.
+//
+package lte.simulations.thesis;
+
+import inet.networklayer.configurator.ipv4.IPv4NetworkConfigurator;
+import inet.networklayer.ipv4.RoutingTableRecorder;
+import inet.node.inet.AdhocHost;
+import inet.node.inet.Router;
+import inet.node.inet.StandardHost;
+import inet.node.ethernet.Eth10G;
+
+import lte.world.radio.LteChannelControl;
+import lte.epc.PgwStandardSimplified;
+import lte.corenetwork.binder.LteBinder;
+import lte.corenetwork.nodes.eNodeB;
+import lte.corenetwork.nodes.Ue;
+import lte.corenetwork.nodes.cars.Car;
+
+
+import org.car2x.veins.modules.mobility.traci.TraCIScenarioManagerLaunchd;
+import org.car2x.veins.modules.obstacle.ObstacleControl;
+import org.car2x.veins.modules.world.annotations.AnnotationManager;
+import org.car2x.veins.subprojects.veins_inet.VeinsInetManager;
+
+
+network ErlangenLTE
+{
+    //parameters:
+     //   double playgroundSizeX @unit(m); // x size of the area the nodes are in (in meters)
+      //  double playgroundSizeY @unit(m); // y size of the area the nodes are in (in meters)
+      //  double playgroundSizeZ @unit(m); // z size of the area the nodes are in (in meters)
+      //  @display("bgb=732,483");
+
+    submodules:
+
+        routingRecorder: RoutingTableRecorder {
+            @display("p=50,75;is=s");
+        }
+        configurator: IPv4NetworkConfigurator {
+            @display("p=50,125");
+            config = xmldoc("demo.xml");
+        }
+         obstacles: ObstacleControl {
+            @display("p=240,50");
+        }
+        annotations: AnnotationManager {
+            @display("p=260,50");
+        }
+
+        //# Veins manager module
+        veinsManager: VeinsInetManager {
+            @display("p=50,227;is=s");
+        }
+
+        //# LTE modules
+        channelControl: LteChannelControl {
+            @display("p=50,25;is=s");
+        }
+        binder: LteBinder {
+            @display("p=50,175;is=s");
+        }
+        server: StandardHost {
+            @display("p=660,136;is=n;i=device/server");
+        }
+        router: Router {
+            @display("p=561,135;i=device/smallrouter");
+        }
+        pgw: PgwStandardSimplified {
+            nodeType = "PGW";
+            @display("p=462,136;is=l");
+        }
+        eNodeB1: eNodeB {
+		@display("p=644691.330162,5493356.214845");
+	}
+	 eNodeB2: eNodeB {
+		@display("p=645552.991067,5493950.449954");
+	}
+	 eNodeB3: eNodeB {
+		@display("p=645654.470900,5494487.923802");
+	}
+	 eNodeB4: eNodeB {
+		@display("p=645025.696799,5494663.124268");
+	}
+	 eNodeB5: eNodeB {
+		@display("p=645374.252995,5493926.200839");
+	}
+	 eNodeB6: eNodeB {
+		@display("p=644722.312054,5493730.597821");
+	}
+	 eNodeB7: eNodeB {
+		@display("p=645821.325532,5493821.808165");
+	}
+	 eNodeB8: eNodeB {
+		@display("p=645717.836163,5493564.504747");
+	}
+	 eNodeB9: eNodeB {
+		@display("p=645216.655028,5493614.064123");
+	}
+	 eNodeB10: eNodeB {
+		@display("p=645819.339864,5493507.375284");
+	}
+	 eNodeB11: eNodeB {
+		@display("p=644860.948546,5492998.406657");
+	}
+	 eNodeB12: eNodeB {
+		@display("p=645801.322503,5494568.212930");
+	}
+	 eNodeB13: eNodeB {
+		@display("p=645730.716016,5493496.878955");
+	}
+	 eNodeB14: eNodeB {
+		@display("p=644849.247723,5493397.017643");
+	}
+	 eNodeB15: eNodeB {
+		@display("p=646232.128458,5493417.892259");
+	}
+	 eNodeB16: eNodeB {
+		@display("p=646878.728402,5493350.434635");
+	}
+	 eNodeB17: eNodeB {
+		@display("p=644908.050875,5494544.331280");
+	}
+	 eNodeB18: eNodeB {
+		@display("p=645357.517940,5493028.562744");
+	}
+	 eNodeB19: eNodeB {
+		@display("p=645339.786043,5493191.285180");
+	}
+	 eNodeB20: eNodeB {
+		@display("p=645106.555774,5494549.625621");
+	}
+
+    connections allowunconnected:
+        server.pppg++ <--> Eth10G <--> router.pppg++;
+        router.pppg++ <--> Eth10G <--> pgw.filterGate;
+        pgw.pppg++ <--> Eth10G <--> eNodeB1.ppp;
+        pgw.pppg++ <--> Eth10G <--> eNodeB2.ppp;
+
+        //# X2 connections
+        eNodeB1.x2++ <--> Eth10G <--> eNodeB2.x2++;
+}
+

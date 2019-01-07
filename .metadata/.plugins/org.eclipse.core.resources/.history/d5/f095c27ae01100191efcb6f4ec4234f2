@@ -1,0 +1,34 @@
+//
+//                           SimuLTE
+//
+// This file is part of a software released under the license included in file
+// "license.pdf". This license can be also found at http://www.ltesimulator.com/
+// The above file and the present reference are part of the software itself,
+// and cannot be removed from it.
+//
+#include <string.h>
+#include <omnetpp.h>
+
+using namespace omnetpp;
+
+/**
+ * Derive the Txc1 class from cSimpleModule. In the Tictoc1 network,
+ * both the `tic' and `toc' modules are Txc1 objects, created by OMNeT++
+ * at the beginning of the simulation.
+ */
+class eNodeB : public cSimpleModule
+{
+  private:
+    int counter;  // Note the counter here
+
+  protected:
+    // The following redefined virtual function holds the algorithm.
+    virtual void initialize() override;
+};
+
+Define_Module(eNodeB);
+
+void eNodeB::initialize()
+{
+    EV << "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO";
+}
