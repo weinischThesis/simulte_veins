@@ -1,0 +1,5 @@
+18:28:22 **** Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+
+18:28:23 Build Finished (took 381ms)
+

@@ -1,0 +1,5 @@
+18:28:12 **** Build of configuration debug for project aloha ****
+make MODE=debug all 
+
+18:28:13 Build Finished (took 420ms)
+

@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for tictoc
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep -O out -I.
+#  opp_makemake -f --deep
 #
 
 # Name of target to be created (-o option)
@@ -15,7 +15,7 @@ USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(TKENV_LIBS) $(QTENV_LIBS) $(CMDENV_LI
 #USERIF_LIBS = $(QTENV_LIBS)
 
 # C++ include paths (with -I)
-INCLUDE_PATH = -I.
+INCLUDE_PATH =
 
 # Additional object and library files to link with
 EXTRA_OBJS =
@@ -29,10 +29,40 @@ PROJECTRELATIVE_PATH =
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc, .msg and .sm files
-OBJS = $O/txc1.o
+OBJS = \
+    $O/txc1.o \
+    $O/txc10.o \
+    $O/txc11.o \
+    $O/txc12.o \
+    $O/txc13.o \
+    $O/txc14.o \
+    $O/txc15.o \
+    $O/txc16.o \
+    $O/txc17.o \
+    $O/txc18.o \
+    $O/txc2.o \
+    $O/txc3.o \
+    $O/txc4.o \
+    $O/txc5.o \
+    $O/txc6.o \
+    $O/txc7.o \
+    $O/txc8.o \
+    $O/txc9.o \
+    $O/tictoc13_m.o \
+    $O/tictoc14_m.o \
+    $O/tictoc15_m.o \
+    $O/tictoc16_m.o \
+    $O/tictoc17_m.o \
+    $O/tictoc18_m.o
 
 # Message files
-MSGFILES =
+MSGFILES = \
+    tictoc13.msg \
+    tictoc14.msg \
+    tictoc15.msg \
+    tictoc16.msg \
+    tictoc17.msg \
+    tictoc18.msg
 
 # SM files
 SMFILES =

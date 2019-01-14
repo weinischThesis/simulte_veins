@@ -80,4 +80,3 @@ network Highway
         //# X2 connections
         eNodeB1.x2++ <--> Eth10G <--> eNodeB2.x2++;
 }
-

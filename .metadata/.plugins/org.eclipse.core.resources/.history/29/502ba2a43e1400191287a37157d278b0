@@ -1,0 +1,38 @@
+//
+// This file is part of an OMNeT++/OMNEST simulation example.
+//
+// Copyright (C) 1992-2015 Andras Varga
+//
+// This file is distributed WITHOUT ANY WARRANTY. See the file
+// `license' for details on this and other legal matters.
+//
+
+
+#include <string.h>
+#include <omnetpp.h>
+
+using namespace omnetpp;
+
+
+
+class HelperModule : public cSimpleModule
+{
+    protected:
+        virtual void initialize() override;
+};
+Define_Module(HelperModule);
+
+void HelperModule::initialize()
+{
+    cModule * router = getParentModule()->getSubmodule("router");
+    bool hasOSPF = true;
+    hasOSPF = std::to_string(router->par("hasOSPF"));
+
+        EV << hasOSPF << "111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n";
+
+
+
+}
+
+
+

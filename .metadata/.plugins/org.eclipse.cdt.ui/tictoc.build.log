@@ -1,5 +1,7 @@
-19:43:42 **** Incremental Build of configuration debug for project tictoc ****
+18:28:15 **** Build of configuration debug for project tictoc ****
 make MODE=debug all 
+txc2.cc
+Creating executable: out/gcc-debug//tictoc
 
-19:43:42 Build Finished (took 395ms)
+18:28:19 Build Finished (took 3s.530ms)
 

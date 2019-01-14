@@ -227,6 +227,19 @@ void TraCIConnection::setNetbounds(TraCICoord netbounds1, TraCICoord netbounds2,
 }
 
 Coord TraCIConnection::traci2omnet(TraCICoord coord) const {
+    std::string netX = std::to_string(netbounds1.x);
+    std::string net1Y = std::to_string(netbounds1.y);
+    std::string net2Y = std::to_string(netbounds2.y);
+    std::string marg = std::to_string(margin);
+    const char * netX1 = netX.c_str();
+    const char * net1Y1 = net1Y.c_str();
+    const char * net2Y1 = net2Y.c_str();
+    const char * marg1 = marg.c_str();
+
+    EV << "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxnetbounds1X= " << netX1 << " \n";
+    EV << "netbounds1Y= " << net1Y1 << " \n";
+    EV << "netbounds2Y= " << net2Y1 << " \n";
+    EV << "margin= " << marg1 << " \n";
 	return Coord(coord.x - netbounds1.x + margin, (netbounds2.y - netbounds1.y) - (coord.y - netbounds1.y) + margin);
 }
 
