@@ -41,7 +41,7 @@ void CbrSender::initialize(int stage)
     {
         destAddress_ = L3AddressResolver().resolve(par("destAddress").stringValue());
         socket.setOutputGate(gate("udpOut"));
-        socket.bind(localPort_);
+        //socket.bind(localPort_);
 
         EV << "CbrSender::initialize - binding to port: local:" << localPort_ << " , dest:" << destPort_ << endl;
 

@@ -1,7 +1,13 @@
-19:39:14 **** Incremental Build of configuration gcc-debug for project simulte ****
+20:55:32 **** Incremental Build of configuration gcc-debug for project simulte ****
 make MODE=debug -j4 all 
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+apps/cbr/CbrSender.cc
+apps/cbr/CbrSender.cc: In member function ‘void CbrSender::initTraffic()’:
+apps/cbr/CbrSender.cc:102:19: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
+         simtime_t offset = (round(SIMTIME_DBL(startTime)*1000)/1000);
+                   ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
 
-19:39:15 Build Finished (took 1s.179ms)
+20:55:42 Build Finished (took 10s.29ms)
 

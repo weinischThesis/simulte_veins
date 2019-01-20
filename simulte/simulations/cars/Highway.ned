@@ -68,7 +68,7 @@ network Highway
             @display("p=156,136;is=vl");
         }
         eNodeB2: eNodeB {
-            @display("p=391,313;is=vl");
+            @display("p=575,304;is=vl");
         }
 
     connections allowunconnected:

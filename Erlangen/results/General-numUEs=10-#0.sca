@@ -1,7 +1,7 @@
 version 2
-run General-0-20190114-15:21:17-20790
+run General-0-20190117-12:21:48-5411
 attr configname General
-attr datetime 20190114-15:21:17
+attr datetime 20190117-12:21:48
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars $numUEs=10
@@ -9,7 +9,7 @@ attr iterationvarsf numUEs=10-
 attr measurement $numUEs=10
 attr network ErlangenLTE
 attr numUEs 10
-attr processid 20790
+attr processid 5411
 attr repetition 0
 attr replication #0
 attr resultdir results

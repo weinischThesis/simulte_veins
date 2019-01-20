@@ -22,3 +22,161 @@ make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ w
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
 19:39:16 **** Incremental Build of configuration debug for project Erlangen ****
 make MODE=debug all 
+16:54:29 **** Build of configuration debug for project aloha ****
+make MODE=debug all 
+16:54:35 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+16:54:41 **** Build of configuration debug for project tictoc ****
+make MODE=debug all 
+16:54:43 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+16:54:45 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+16:54:47 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+apps/vod/VoDUDPClient.cc
+apps/vod/VoDUDPClient.cc: In member function ‘virtual void VoDUDPClient::receiveStream(VoDPacket*)’:
+apps/vod/VoDUDPClient.cc:137:9: warning: unused variable ‘seqNum’ [-Wunused-variable]
+     int seqNum = msg->getFrameSeqNum();
+         ^
+apps/vod/VoDUDPClient.cc:139:9: warning: unused variable ‘frameLength’ [-Wunused-variable]
+     int frameLength = msg->getFrameLength();
+         ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+16:55:05 **** Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+16:55:07 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+20:45:10 **** Build of configuration debug for project aloha ****
+make MODE=debug all 
+20:45:13 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+20:45:16 **** Build of configuration debug for project tictoc ****
+make MODE=debug all 
+20:45:17 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+20:45:18 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+20:45:20 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+apps/cbr/CbrSender.cc
+apps/vod/VoDUDPClient.cc
+apps/cbr/CbrSender.cc: In member function ‘void CbrSender::initTraffic()’:
+apps/cbr/CbrSender.cc:102:19: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
+         simtime_t offset = (round(SIMTIME_DBL(startTime)*1000)/1000);
+                   ^
+apps/vod/VoDUDPClient.cc: In member function ‘virtual void VoDUDPClient::receiveStream(VoDPacket*)’:
+apps/vod/VoDUDPClient.cc:137:9: warning: unused variable ‘seqNum’ [-Wunused-variable]
+     int seqNum = msg->getFrameSeqNum();
+         ^
+apps/vod/VoDUDPClient.cc:139:9: warning: unused variable ‘frameLength’ [-Wunused-variable]
+     int frameLength = msg->getFrameLength();
+         ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+20:45:32 **** Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+20:45:34 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+20:51:36 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+20:51:38 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+20:51:40 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+20:51:41 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+20:51:43 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+20:51:44 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+MSGC: apps/cbr/CbrPacket.msg
+apps/cbr/CbrReceiver.cc
+apps/cbr/CbrSender.cc
+apps/cbr/CbrPacket_m.cc
+apps/cbr/CbrSender.cc: In member function ‘void CbrSender::initTraffic()’:
+apps/cbr/CbrSender.cc:102:19: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
+         simtime_t offset = (round(SIMTIME_DBL(startTime)*1000)/1000);
+                   ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+20:51:54 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+20:51:56 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+20:55:25 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+20:55:27 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+20:55:29 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+20:55:30 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+20:55:31 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+20:55:32 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+apps/cbr/CbrSender.cc
+apps/cbr/CbrSender.cc: In member function ‘void CbrSender::initTraffic()’:
+apps/cbr/CbrSender.cc:102:19: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
+         simtime_t offset = (round(SIMTIME_DBL(startTime)*1000)/1000);
+                   ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+20:55:44 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+20:55:46 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 

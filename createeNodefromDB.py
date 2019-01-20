@@ -134,15 +134,19 @@ connections = "\nconnections:\n"
 counter = 1
 margin= 25
 allENodeBs = []
+pois ="\n\n#POIs/Enodes\n"
 ini = "\n# Enable handover\n**.enableHandover = true\n**.broadcastMessageInterval = 0.5s\n# X2 and SCTP configuration\n"
 # UPDATE SELECTED CELLS
 for row in cur.fetchall():
+	xSumo = row[15]
+	ySumo = row[16]
 	x = row[15] - xmin + margin
 	y = (ymax - ymin) - (row[16] - ymin) + margin
 	allENodeBs.append(ENodeB(counter,x,y,[]))
 	submodules = submodules+"\t eNodeB%d: eNodeB {\n\t\t@display(\"p=%f,%f\");\n\t}\n"% (counter, x, y)
 	connections = connections +("\tpgw.pppg++ <--> Eth10G <--> eNodeB%d.ppp;\n"% counter)
 	ini = ini+"**.eNodeB%d.macCellId = %d\n**.eNodeB%d.macNodeId = %d\n"%(counter,counter,counter,counter)
+	pois = pois + "<poly id=\"9999999999999%d\" type=\"eNodeB\" color=\"0.00,0.50,0.00\" fill=\"1\" layer=\"5\" shape=\"%8.2f,%8.2f %8.2f,%8.2f %8.2f,%8.2f %8.2f,%8.2f %8.2f,%8.2f\"/>\n"%(counter,xSumo,ySumo,xSumo,ySumo+20,xSumo+20,ySumo+20,xSumo+20,ySumo,xSumo,ySumo)
 	counter = counter + 1
 #add x2 connections 
 ini = ini + "**.eNodeBCount = %d\n"%(len(allENodeBs))
@@ -171,7 +175,7 @@ x2Clients = getX2Clients(x2Dict)
 
 connections = connections 
 f= open("enodes.txt","w+")
-f.write(submodules+connections+ini+x2AppsPerNode+x2Clients)
+f.write(submodules+connections+ini+x2AppsPerNode+x2Clients+pois)
 f.close()
 
 
