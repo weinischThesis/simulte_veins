@@ -63,6 +63,7 @@ void LtePhyBase::handleMessage(cMessage* msg)
     // AirFrame
     else if (msg->getArrivalGate()->getId() == radioInGate_)
     {
+        int upperGateId = upperGateIn_;
         handleAirFrame(msg);
     }
 
@@ -295,7 +296,15 @@ void LtePhyBase::sendUnicast(LteAirFrame *frame)
     // get a pointer to receiving module
     cModule *receiver = getSimulation()->getModule(destOmnetId);
     // receiver's gate
-    sendDirect(frame, 0, frame->getDuration(), receiver, "radioIn");
+    const char* name1 = frame->getName();
+
+    if(strcmp(name1, "airframe")){
+        sendDirect(frame, 0, frame->getDuration(), receiver, "mapCheckerIn");
+    }
+    else {
+        sendDirect(frame, 0, frame->getDuration(), receiver, "radioIn");
+    }
+
 
     return;
 }

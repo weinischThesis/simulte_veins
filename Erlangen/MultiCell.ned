@@ -6,7 +6,7 @@
 // The above file and the present reference are part of the software itself, 
 // and cannot be removed from it.
 // 
-
+package erlangen;
 
 import inet.networklayer.configurator.ipv4.IPv4NetworkConfigurator;
 import inet.networklayer.ipv4.RoutingTableRecorder;

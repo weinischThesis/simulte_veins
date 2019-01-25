@@ -1,13 +1,14 @@
-20:55:32 **** Incremental Build of configuration gcc-debug for project simulte ****
+15:07:51 **** Incremental Build of configuration gcc-debug for project simulte ****
 make MODE=debug -j4 all 
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
-apps/cbr/CbrSender.cc
-apps/cbr/CbrSender.cc: In member function ‘void CbrSender::initTraffic()’:
-apps/cbr/CbrSender.cc:102:19: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
-         simtime_t offset = (round(SIMTIME_DBL(startTime)*1000)/1000);
-                   ^
+helper/MapChecker.cc
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
 Creating shared library: ../out/gcc-debug/src/liblte.so
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
 
-20:55:42 Build Finished (took 10s.29ms)
+15:08:16 Build Finished (took 24s.569ms)
 

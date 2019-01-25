@@ -5,7 +5,7 @@
         	<!-- Enable/disable shadowing -->       
             <parameter name="shadowing" type="bool" value="true"/>
             <!-- Pathloss scenario from ITU -->   
-            <parameter name="scenario" type="string" value="URBAN_MACROCELL"/>
+            <parameter name="scenario" type="string" value="URBAN_MICROCELL"/>
             <!-- eNodeB height -->
             <parameter name="nodeb-height" type="double" value="25"/>
             <!-- Building height -->

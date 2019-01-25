@@ -1,5 +1,5 @@
-20:55:25 **** Incremental Build of configuration debug for project aloha ****
+15:07:45 **** Incremental Build of configuration debug for project aloha ****
 make MODE=debug all 
 
-20:55:26 Build Finished (took 426ms)
+15:07:45 Build Finished (took 603ms)
 

@@ -1,4 +1,4 @@
-// 
+ // 
 //                           SimuLTE
 // 
 // This file is part of a software released under the license included in file
@@ -22,6 +22,9 @@ import inet.transportlayer.udp.UDP;
 import lte.stack.phy.ILteNic;
 import lte.stack.phy.LteNicUe;
 import lte.stack.phy.LteNicUeD2D;
+import erlangen.MapChecker;
+
+
 
 // 
 // Car Module
@@ -30,7 +33,7 @@ module Car
 {
     parameters:
         @networkNode();
-        @display("i=car.png;bgb=400,518");
+        @display("i=car;bgb=400,518");
 
         //# Mobility
         string mobilityType = default("VeinsInetMobility");
@@ -57,6 +60,7 @@ module Car
 
     gates:
         input radioIn @directIn;     // connection to master
+        input mapCheckerIn @directIn; //conenction to mapChecker
 
     submodules:
         mobility: <mobilityType> like IMobility {
@@ -96,6 +100,9 @@ module Car
         configurator: HostAutoConfigurator {
             @display("p=49.068,22.968");
         }
+        routeChecker: MapChecker {
+            
+        }
     connections allowunconnected:
         //# 
         //# Internal TCP/UDP applications connections with IP stack
@@ -118,6 +125,7 @@ module Car
         udp.ipIn <-- networkLayer.transportOut++ if numUdpApps>0;
 
         lteNic.radioIn <-- radioIn;
+        routeChecker.mapCheckerIn <-- mapCheckerIn;
 
         networkLayer.ifOut++ --> lteNic.upperLayerIn;
         networkLayer.ifIn++ <-- lteNic.upperLayerOut;

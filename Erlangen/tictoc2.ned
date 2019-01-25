@@ -8,7 +8,7 @@
 // `license' for details on this and other legal matters.
 //
 
-
+package erlangen;
 //
 // Here we make the model look a bit prettier in the GUI. We assign the
 // "block/routing" icon to the simple module. All submodules of type

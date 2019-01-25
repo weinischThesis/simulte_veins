@@ -29,7 +29,7 @@ PROJECTRELATIVE_PATH =
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc, .msg and .sm files
-OBJS = $O/HelperModule.o $O/txc2.o
+OBJS = $O/HelperModule.o $O/MapChecker.o $O/txc2.o
 
 # Message files
 MSGFILES =

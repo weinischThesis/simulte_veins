@@ -2,17 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Cell" key="selection"/>
+		<item value="Scheduler" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="cell"/>
-			<item value="traci2om"/>
-			<item value="traci2"/>
-			<item value="car"/>
-			<item value="png"/>
+			<item value="Scheduler"/>
+			<item value="LteSchedulerEnbDl"/>
+			<item value="LteHarqUnitTx"/>
+			<item value="send"/>
+			<item value="macpdu"/>
+			<item value="decid"/>
+			<item value="getSe"/>
+			<item value="upperGateIn"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -20,8 +23,8 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="314" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="470" key="DIALOG_HEIGHT"/>
-		<item value="1330" key="DIALOG_X_ORIGIN"/>
-		<item value="341" key="DIALOG_Y_ORIGIN"/>
+		<item value="498" key="DIALOG_HEIGHT"/>
+		<item value="1298" key="DIALOG_X_ORIGIN"/>
+		<item value="367" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

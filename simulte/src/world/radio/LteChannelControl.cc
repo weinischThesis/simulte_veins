@@ -32,7 +32,7 @@ LteChannelControl::~LteChannelControl()
  */
 void LteChannelControl::initialize()
 {
-    coreEV << "initializing LteChannelControl\n";
+    EV << "initializing LteChannelControl\n";
     ChannelControl::initialize();
 }
 
@@ -66,6 +66,7 @@ double LteChannelControl::calcInterfDist()
     interfDistance = pow(waveLength * waveLength * pMax / (16.0 * M_PI * M_PI * minReceivePower), 1.0 / alpha);
 
     coreEV << "max interference distance:" << interfDistance << endl;
+    EV << "max interference distance:" << interfDistance << endl;
 
     return interfDistance;
 }

@@ -16,7 +16,7 @@
 //
 // TODO auto-generated type
 
-
+package erlangen;
 
 simple HelperModule
 {
