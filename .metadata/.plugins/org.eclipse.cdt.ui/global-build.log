@@ -694,3 +694,1514 @@ make MODE=debug all
 make MODE=debug all 
 MapChecker.cc
 Creating executable: out/gcc-debug//Erlangen
+15:11:57 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:11:59 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:12:01 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:12:02 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:12:03 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:12:04 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:12:05 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:12:07 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:17:15 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:17:16 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:17:19 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:17:20 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:17:21 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:17:22 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:17:23 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:17:24 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:22:21 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:22:22 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:22:25 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:22:26 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:22:29 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:22:32 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:22:35 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:22:37 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:34:59 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:35:01 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:35:05 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:35:09 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:35:13 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:35:17 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:35:35 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:35:36 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:35:46 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:35:47 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:35:50 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:35:51 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:35:53 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:35:55 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:36:09 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:36:10 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:36:35 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:36:37 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:36:39 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:36:40 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:36:41 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:36:43 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:36:46 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:36:49 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:40:40 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:40:41 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:40:44 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:40:45 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:40:46 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:40:48 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:41:12 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:41:15 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:41:39 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:41:41 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:41:47 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:41:51 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:41:54 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:41:57 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:42:01 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:42:04 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:43:10 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:43:11 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:43:14 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:43:16 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:43:19 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:43:22 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:43:40 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:43:43 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:43:54 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:43:56 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:43:58 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:43:59 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:44:00 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:44:02 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:44:03 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:44:05 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+16:06:48 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+16:06:51 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+16:06:59 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+16:07:00 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+16:07:01 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+16:07:02 **** Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+16:07:03 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+16:07:04 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+16:19:09 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+16:19:10 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+16:19:13 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+16:19:14 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+16:19:15 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+16:19:16 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+16:19:37 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+16:19:38 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+16:24:37 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+16:24:38 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+16:24:40 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+16:24:41 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+16:24:42 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+16:24:43 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+16:24:44 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+16:24:45 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+16:25:21 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+16:25:23 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+16:25:25 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+16:25:26 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+16:25:27 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+16:25:28 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+stack/phy/layer/LtePhyBase.cc
+stack/phy/layer/LtePhyBase.cc: In member function ‘virtual void LtePhyBase::handleMessage(omnetpp::cMessage*)’:
+stack/phy/layer/LtePhyBase.cc:66:13: warning: unused variable ‘upperGateId’ [-Wunused-variable]
+         int upperGateId = upperGateIn_;
+             ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+16:25:36 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+16:25:37 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:08:02 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:08:04 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:08:06 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:08:07 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:08:08 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:08:09 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:08:16 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:08:17 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:09:26 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:09:27 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:09:29 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:09:30 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:09:31 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:09:32 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:09:33 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:09:35 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:23:24 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:23:25 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:23:27 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:23:28 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:23:29 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:23:30 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+apps/cbr/CbrSender.cc
+apps/cbr/CbrSender.cc: In member function ‘void CbrSender::initTraffic()’:
+apps/cbr/CbrSender.cc:102:19: warning: variable ‘offset’ set but not used [-Wunused-but-set-variable]
+         simtime_t offset = (round(SIMTIME_DBL(startTime)*1000)/1000);
+                   ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:23:37 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:23:38 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:24:33 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:24:34 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:24:36 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:24:37 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:24:38 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:24:39 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:24:40 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:24:41 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:26:06 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:26:08 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:26:10 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:26:11 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:26:12 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:26:13 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:26:15 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:26:16 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:29:02 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:29:04 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:29:06 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:29:07 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:29:08 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:29:09 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:29:11 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:29:12 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:30:00 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:30:01 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:30:04 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:30:05 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:30:06 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:30:07 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:30:08 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:30:09 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:38:40 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:38:41 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:38:43 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:38:44 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:38:46 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:38:47 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+17:38:48 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:38:49 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+17:58:34 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+17:58:36 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+17:58:41 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+17:58:43 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+17:58:45 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+17:58:46 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc:25:9: error: ‘vector’ does not name a type
+         vector <Coord> coordinates;
+         ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+17:58:50 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+17:58:52 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:00:38 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:00:39 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:00:41 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:00:42 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:00:43 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:00:44 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc:26:9: error: ‘vector’ does not name a type
+         vector<Coord> coordinates;
+         ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+18:00:47 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:00:48 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:01:41 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:01:42 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:01:44 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:01:45 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:01:46 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:01:47 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+18:01:57 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:01:58 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:02:13 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:02:15 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:02:17 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:02:18 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:02:19 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:02:20 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+18:02:21 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:02:22 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:03:12 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:03:13 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:03:15 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:03:16 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:03:17 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:03:18 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+18:03:19 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:03:20 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:03:35 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:03:36 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:03:38 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:03:39 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:03:40 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:03:41 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+18:03:43 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:03:46 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:04:24 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:04:25 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:04:27 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:04:28 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:04:29 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:04:30 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+18:04:39 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:04:40 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+18:04:43 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+18:04:46 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+18:04:48 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+18:04:50 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+18:04:51 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+18:04:52 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+18:04:53 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+18:04:54 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:20:02 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:20:04 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:20:06 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:20:07 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:20:07 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:20:08 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc:17:42: fatal error: veins_inet/VeinsInetMobility.h: Datei oder Verzeichnis nicht gefunden
+compilation terminated.
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:20:10 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:20:11 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:21:44 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:21:45 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:21:47 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:21:49 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:21:50 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:21:51 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc:17:70: fatal error: org.car2x.veins.subprojects.veins_inet/VeinsInetMobility.h: Datei oder Verzeichnis nicht gefunden
+compilation terminated.
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:21:52 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:21:53 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:30:39 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:30:40 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:30:43 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:30:43 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:30:44 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:30:46 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc:17:70: fatal error: org.car2x.veins.subprojects.veins_inet/VeinsInetMobility.h: Datei oder Verzeichnis nicht gefunden
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:30:47 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:30:49 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:31:12 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:31:14 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:31:16 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:31:17 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:31:18 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:31:19 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:45:32: error: ‘class MapChecker’ has no member named ‘getParentNode’
+     cModule * mobility = this->getParentNode()->getSubmodule("mobility");
+                                ^
+helper/MapChecker.cc:46:37: error: request for member ‘par’ in ‘mobility’, which is of pointer type ‘omnetpp::cModule*’ (maybe you meant to use ‘->’ ?)
+     const char * display = mobility.par("display");
+                                     ^
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = mobility.par("display");
+                  ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:31:22 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:31:23 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:31:46 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:31:48 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:31:50 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:31:51 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:31:52 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:31:53 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:45:40: error: ‘getParentNode’ was not declared in this scope
+     cModule * mobility = getParentNode()->getSubmodule("mobility");
+                                        ^
+helper/MapChecker.cc:46:37: error: request for member ‘par’ in ‘mobility’, which is of pointer type ‘omnetpp::cModule*’ (maybe you meant to use ‘->’ ?)
+     const char * display = mobility.par("display");
+                                     ^
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = mobility.par("display");
+                  ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:31:56 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:31:58 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:33:37 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:33:38 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:33:40 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:33:42 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:33:45 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:33:47 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:45:40: error: ‘getParentNode’ was not declared in this scope
+     cModule * mobility = getParentNode()->getSubmodule("mobility");
+                                        ^
+helper/MapChecker.cc:46:37: error: request for member ‘par’ in ‘mobility’, which is of pointer type ‘omnetpp::cModule*’ (maybe you meant to use ‘->’ ?)
+     const char * display = mobility.par("display");
+                                     ^
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = mobility.par("display");
+                  ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:33:50 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:33:51 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:33:59 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:34:01 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:34:05 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:34:06 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:34:08 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:34:09 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:46:37: error: request for member ‘par’ in ‘mobility’, which is of pointer type ‘omnetpp::cModule*’ (maybe you meant to use ‘->’ ?)
+     const char * display = mobility.par("display");
+                                     ^
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = mobility.par("display");
+                  ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+make: *** [all] Fehler 2
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:34:12 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:34:14 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:34:33 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:34:34 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:34:36 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:34:37 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:34:41 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:34:43 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:46:37: error: request for member ‘par’ in ‘mobility’, which is of pointer type ‘omnetpp::cModule*’ (maybe you meant to use ‘->’ ?)
+     const char * display = mobility.par("display");
+                                     ^
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = mobility.par("display");
+                  ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+12:34:46 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:34:47 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:34:51 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:34:54 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:34:57 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:34:58 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:34:59 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:35:00 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = mobility->par("display");
+                  ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+12:35:09 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:35:10 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:38:01 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:38:02 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:38:04 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:38:05 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:38:07 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:38:08 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+12:38:17 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:38:19 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+12:41:18 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:41:19 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:41:21 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:41:22 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+Command canceled
+12:41:26 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+12:41:28 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+12:41:32 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+12:41:36 **** Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+12:41:39 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+12:41:43 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+12:42:09 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+12:42:12 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+13:14:57 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+13:14:58 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+13:15:00 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+13:15:01 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+13:15:02 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+13:15:03 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::handleMessage(omnetpp::cMessage*)’:
+helper/MapChecker.cc:46:18: warning: unused variable ‘display’ [-Wunused-variable]
+     const char * display = car->getDisplayString().str();
+                  ^
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+13:15:09 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+13:15:10 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+19:06:36 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+19:06:39 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+19:06:46 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+19:06:47 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+19:06:48 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+19:06:49 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+19:07:10 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+19:07:10 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+19:30:28 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+19:30:29 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+19:30:36 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+19:30:37 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+19:30:38 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+19:30:39 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+19:30:40 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+19:30:41 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 

@@ -39,7 +39,7 @@ void CbrSender::initialize(int stage)
     }
     else if (stage == INITSTAGE_APPLICATION_LAYER)
     {
-        destAddress_ = L3AddressResolver().resolve(par("destAddress").stringValue());
+        //destAddress_ = L3AddressResolver().resolve(par("destAddress").stringValue());
         socket.setOutputGate(gate("udpOut"));
         //socket.bind(localPort_);
 

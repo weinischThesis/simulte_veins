@@ -1,7 +1,5 @@
-15:08:17 **** Incremental Build of configuration debug for project Erlangen ****
+19:30:41 **** Incremental Build of configuration debug for project Erlangen ****
 make MODE=debug all 
-MapChecker.cc
-Creating executable: out/gcc-debug//Erlangen
 
-15:08:23 Build Finished (took 5s.724ms)
+19:30:41 Build Finished (took 471ms)
 

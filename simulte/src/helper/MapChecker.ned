@@ -18,9 +18,9 @@
 //
 package lte.helper;
 
-module MapChecker
+simple MapChecker
 {
     gates:
-        input mapCheckerIn @directIn; 
+        input mapCheckerIn; 
         
 }

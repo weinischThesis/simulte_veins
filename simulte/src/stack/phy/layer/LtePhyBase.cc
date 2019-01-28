@@ -298,12 +298,16 @@ void LtePhyBase::sendUnicast(LteAirFrame *frame)
     // receiver's gate
     const char* name1 = frame->getName();
 
-    if(strcmp(name1, "airframe")){
+    if(!strcmp(name1, "airframe")){
+
         sendDirect(frame, 0, frame->getDuration(), receiver, "mapCheckerIn");
     }
     else {
         sendDirect(frame, 0, frame->getDuration(), receiver, "radioIn");
     }
+
+
+
 
 
     return;

@@ -22,7 +22,7 @@ import inet.transportlayer.udp.UDP;
 import lte.stack.phy.ILteNic;
 import lte.stack.phy.LteNicUe;
 import lte.stack.phy.LteNicUeD2D;
-import erlangen.MapChecker;
+import lte.helper.MapChecker;
 
 
 
