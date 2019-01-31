@@ -78,5 +78,5 @@ network Highway
         pgw.pppg++ <--> Eth10G <--> eNodeB2.ppp;
 
         //# X2 connections
-        eNodeB1.x2++ <--> Eth10G <--> eNodeB2.x2++;
+        eNodeB1.x2++ <--> Eth10G{@display("ls=black,0,d");} <--> eNodeB2.x2++;
 }

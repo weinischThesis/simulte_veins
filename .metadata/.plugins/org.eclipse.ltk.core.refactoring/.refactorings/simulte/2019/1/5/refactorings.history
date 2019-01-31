@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;simulte/simulations/cars/coordinates&apos; to &apos;workingCoordinates&apos;" description="Rename resource &apos;coordinates&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="simulations/cars/coordinates" name="workingCoordinates" stamp="1548696455644" updateReferences="true"/>
+</session>

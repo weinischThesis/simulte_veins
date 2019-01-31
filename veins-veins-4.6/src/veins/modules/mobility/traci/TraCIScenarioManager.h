@@ -93,6 +93,8 @@ class TraCIScenarioManager : public cSimpleModule
 
 		TraCICommandInterface* getCommandInterface() const { return commandIfc; }
 
+		TraCIConnection* getConnection() const { return connection; }
+
 		bool getAutoShutdownTriggered() {
 			return autoShutdownTriggered;
 		}

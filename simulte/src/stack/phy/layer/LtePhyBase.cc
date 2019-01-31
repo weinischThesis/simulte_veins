@@ -63,7 +63,6 @@ void LtePhyBase::handleMessage(cMessage* msg)
     // AirFrame
     else if (msg->getArrivalGate()->getId() == radioInGate_)
     {
-        int upperGateId = upperGateIn_;
         handleAirFrame(msg);
     }
 
@@ -299,16 +298,16 @@ void LtePhyBase::sendUnicast(LteAirFrame *frame)
     const char* name1 = frame->getName();
 
     if(!strcmp(name1, "airframe")){
-
-        sendDirect(frame, 0, frame->getDuration(), receiver, "mapCheckerIn");
+        LteAirFrame * duplicate = frame->dup();
+        sendDirect(duplicate, receiver, "mapCheckerIn");
+        int i =0;
+        while(!duplicate->isScheduled()|| i<1000){
+            i++;
+        }
+        sendDirect(frame, 0, frame->getDuration(), receiver, "radioIn");
     }
     else {
         sendDirect(frame, 0, frame->getDuration(), receiver, "radioIn");
     }
-
-
-
-
-
     return;
 }

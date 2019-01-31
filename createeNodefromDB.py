@@ -64,7 +64,7 @@ def getClosestENodeBs(radius,minNumOfENodeBs,node, allENodeBs):
 def getX2PairsList(allENodeBs):
 	pairsList = []
 	for node in allENodeBs:
-		node.addCloseNodeId(getClosestENodeBs(0,3,node,allENodeBs))
+		node.addCloseNodeId(getClosestENodeBs(500,3,node,allENodeBs))
 		for closestNodeId in node.closestIds:
 			if ([node.id,closestNodeId] not in pairsList) and ([closestNodeId,node.id] not in pairsList):
 				pairsList.append([node.id,closestNodeId])
@@ -144,7 +144,7 @@ for row in cur.fetchall():
 	y = (ymax - ymin) - (row[16] - ymin) + margin
 	allENodeBs.append(ENodeB(counter,x,y,[]))
 	submodules = submodules+"\t eNodeB%d: eNodeB {\n\t\t@display(\"p=%f,%f\");\n\t}\n"% (counter, x, y)
-	connections = connections +("\tpgw.pppg++ <--> Eth10G <--> eNodeB%d.ppp;\n"% counter)
+	connections = connections +("\tpgw.pppg++ <--> Eth100G{@display(\"ls=black,0,d\");} <--> eNodeB%d.ppp;\n"% counter)
 	ini = ini+"**.eNodeB%d.macCellId = %d\n**.eNodeB%d.macNodeId = %d\n"%(counter,counter,counter,counter)
 	pois = pois + "<poly id=\"9999999999999%d\" type=\"eNodeB\" color=\"0.00,0.50,0.00\" fill=\"1\" layer=\"5\" shape=\"%8.2f,%8.2f %8.2f,%8.2f %8.2f,%8.2f %8.2f,%8.2f %8.2f,%8.2f\"/>\n"%(counter,xSumo,ySumo,xSumo,ySumo+20,xSumo+20,ySumo+20,xSumo+20,ySumo,xSumo,ySumo)
 	counter = counter + 1
@@ -154,7 +154,7 @@ pairsList = getX2PairsList(allENodeBs)
 connections = connections + ("\n\t//# X2 connections \n")
 
 for pair in pairsList:
-	connections = connections + "\teNodeB%d.x2++ <--> Eth10G <--> eNodeB%d.x2++; \n"% (pair[0],pair[1])
+	connections = connections + "\teNodeB%d.x2++ <--> Eth40G <--> eNodeB%d.x2++; \n"% (pair[0],pair[1])
 	
 x2Dict = getX2Dict(pairsList)
 #print(x2Dict)

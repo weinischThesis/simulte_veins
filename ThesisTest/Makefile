@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for ThesisTest
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep -O out -KINET_PROJ=../inet -KSIMULTE_PROJ=../simulte -KVEINS_INET_PROJ=../veins-veins-4.6/subprojects/veins_inet -KVEINS_VEINS_4_6_PROJ=../veins-veins-4.6 -DINET_IMPORT -I. -I$$\(INET_PROJ\)/src -I$$\(SIMULTE_PROJ\)/src -I$$\(VEINS_VEINS_4_6_PROJ\)/src -Isrc -L$$\(INET_PROJ\)/out/$$\(CONFIGNAME\)/src -L$$\(SIMULTE_PROJ\)/out/$$\(CONFIGNAME\)/src -L$$\(VEINS_INET_PROJ\)/out/$$\(CONFIGNAME\)/src -L$$\(VEINS_VEINS_4_6_PROJ\)/out/$$\(CONFIGNAME\)/src -lINET -llte -lveins_inet -lveins
+#  opp_makemake -f --deep -O out -KINET_PROJ=../inet -KSIMULTE_PROJ=../simulte -KVEINS_INET_PROJ=../veins-veins-4.6/subprojects/veins_inet -KVEINS_VEINS_4_6_PROJ=../veins-veins-4.6 -DINET_IMPORT -I. -I$$\(INET_PROJ\)/src -I$$\(SIMULTE_PROJ\)/src -I$$\(VEINS_INET_PROJ\)/src -I$$\(VEINS_VEINS_4_6_PROJ\)/src -Isrc -L$$\(INET_PROJ\)/out/$$\(CONFIGNAME\)/src -L$$\(SIMULTE_PROJ\)/out/$$\(CONFIGNAME\)/src -L$$\(VEINS_INET_PROJ\)/out/$$\(CONFIGNAME\)/src -L$$\(VEINS_VEINS_4_6_PROJ\)/out/$$\(CONFIGNAME\)/src -lINET -llte -lveins_inet -lveins
 #
 
 # Name of target to be created (-o option)
@@ -15,7 +15,13 @@ USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(TKENV_LIBS) $(QTENV_LIBS) $(CMDENV_LI
 #USERIF_LIBS = $(QTENV_LIBS)
 
 # C++ include paths (with -I)
-INCLUDE_PATH = -I. -I$(INET_PROJ)/src -I$(SIMULTE_PROJ)/src -I$(VEINS_VEINS_4_6_PROJ)/src -Isrc
+INCLUDE_PATH = \
+    -I. \
+    -I$(INET_PROJ)/src \
+    -I$(SIMULTE_PROJ)/src \
+    -I$(VEINS_INET_PROJ)/src \
+    -I$(VEINS_VEINS_4_6_PROJ)/src \
+    -Isrc
 
 # Additional object and library files to link with
 EXTRA_OBJS =
