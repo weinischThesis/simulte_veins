@@ -1,5 +1,5 @@
-10:12:44 **** Incremental Build of configuration debug for project ThesisTest ****
+13:14:46 **** Incremental Build of configuration debug for project ThesisTest ****
 make MODE=debug all 
 
-10:12:45 Build Finished (took 440ms)
+13:14:47 Build Finished (took 1s.621ms)
 

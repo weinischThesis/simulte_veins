@@ -1,7 +1,7 @@
-10:12:43 **** Incremental Build of configuration gcc-debug for project simulte ****
+13:14:42 **** Incremental Build of configuration gcc-debug for project simulte ****
 make MODE=debug -j4 all 
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
 
-10:12:44 Build Finished (took 892ms)
+13:14:44 Build Finished (took 2s.13ms)
 
