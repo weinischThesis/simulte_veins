@@ -9,6 +9,9 @@ else:
 import sumolib
 import mysql.connector
 import math
+import os.path
+import re
+
 
 class ENodeB:
 	def __init__(self, id, x, y, closestIds):
@@ -69,6 +72,18 @@ def getX2PairsList(allENodeBs):
 			if ([node.id,closestNodeId] not in pairsList) and ([closestNodeId,node.id] not in pairsList):
 				pairsList.append([node.id,closestNodeId])
 	return pairsList
+
+def getX2PairsListFromFile(filename):
+	pairsList = []
+	f = open(filename,'r')
+	for line in f:
+		result = re.search('eNodeB([0-9]+).*eNodeB([0-9]+)',line)
+		if result != None:
+			 pairsList.append([int(result.group(1)),int(result.group(2))])
+	f.close()
+	return pairsList
+
+
 
 def getX2Dict(pairsList):
 	x2Dict ={}
@@ -150,12 +165,19 @@ for row in cur.fetchall():
 	counter = counter + 1
 #add x2 connections 
 ini = ini + "**.eNodeBCount = %d\n"%(len(allENodeBs))
-pairsList = getX2PairsList(allENodeBs)
+if os.path.isfile("manualEnodeX2Connections.txt"):
+	#pairsList = getX2PairsListFromFile("manualEnodeX2Connections.txt")
+	print("Take Connections from File")
+	pairsList =getX2PairsListFromFile("manualEnodeX2Connections.txt")
+else:
+	pairsList = getX2PairsList(allENodeBs)
+
 connections = connections + ("\n\t//# X2 connections \n")
 
 for pair in pairsList:
 	connections = connections + "\teNodeB%d.x2++ <--> Eth100G { @display(\"ls=grey25,1,d\"); }<--> eNodeB%d.x2++; \n"% (pair[0],pair[1])
-	
+
+#print(pairsList)	
 x2Dict = getX2Dict(pairsList)
 #print(x2Dict)
 

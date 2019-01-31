@@ -409,6 +409,9 @@ network ErlangenLTE
         eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB42.x2++;
         eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
         eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
+        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB16.x2++;
+        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB23.x2++;
+        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
         eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
         eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB10.x2++;
         eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB30.x2++;
@@ -425,6 +428,7 @@ network ErlangenLTE
         eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB19.x2++;
         eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB31.x2++;
         eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB35.x2++;
+        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
         eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB13.x2++;
         eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
         eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
@@ -433,6 +437,7 @@ network ErlangenLTE
         eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
         eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
         eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB22.x2++;
+        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
         eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
         eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
         eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB18.x2++;
@@ -457,12 +462,15 @@ network ErlangenLTE
         eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
         eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
         eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB15.x2++;
+        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB21.x2++;
+        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB23.x2++;
         eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
         eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB61.x2++;
         eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB20.x2++;
         eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB49.x2++;
         eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
         eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB19.x2++;
+        eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
         eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
         eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB48.x2++;
         eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB35.x2++;
@@ -486,6 +494,7 @@ network ErlangenLTE
         eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB36.x2++;
         eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB38.x2++;
         eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
+        eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
         eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
         eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB60.x2++;
         eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
@@ -540,6 +549,7 @@ network ErlangenLTE
         eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB48.x2++;
         eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
         eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
+        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
         eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB38.x2++;
         eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
         eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB42.x2++;
@@ -548,7 +558,9 @@ network ErlangenLTE
         eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
         eNodeB38.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
         eNodeB38.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
+        eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
         eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
+        eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
         eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
         eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
         eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
@@ -568,6 +580,7 @@ network ErlangenLTE
         eNodeB46.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
         eNodeB47.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
         eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
+        eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
         eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB51.x2++;
         eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
         eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
@@ -586,19 +599,6 @@ network ErlangenLTE
         eNodeB61.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
         eNodeB61.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
         eNodeB63.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB39.x2++ <--> Eth100G <--> eNodeB65.x2++;
-        eNodeB48.x2++ <--> Eth100G <--> eNodeB65.x2++;
-        eNodeB18.x2++ <--> Eth100G <--> eNodeB39.x2++;
-        eNodeB39.x2++ <--> Eth100G <--> eNodeB40.x2++;
-        eNodeB39.x2++ <--> Eth100G <--> eNodeB40.x2++;
-        eNodeB7.x2++ <--> Eth100G <--> eNodeB16.x2++;
-        eNodeB7.x2++ <--> Eth100G <--> eNodeB44.x2++;
-        eNodeB7.x2++ <--> Eth100G <--> eNodeB23.x2++;
-        eNodeB16.x2++ <--> Eth100G <--> eNodeB21.x2++;
-        eNodeB16.x2++ <--> Eth100G <--> eNodeB23.x2++;
-        eNodeB9.x2++ <--> Eth100G <--> eNodeB47.x2++;
-        eNodeB35.x2++ <--> Eth100G <--> eNodeB65.x2++;
-        eNodeB23.x2++ <--> Eth100G <--> eNodeB64.x2++;
-        eNodeB15.x2++ <--> Eth100G <--> eNodeB23.x2++;
+
 }
 
