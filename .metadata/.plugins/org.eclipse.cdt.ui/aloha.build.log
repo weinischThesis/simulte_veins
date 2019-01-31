@@ -1,0 +1,5 @@
+13:14:11 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+
+13:14:12 Build Finished (took 1s.581ms)
+

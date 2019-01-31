@@ -1,0 +1,13 @@
+13:14:18 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+
+13:14:25 Build Finished (took 6s.693ms)
+

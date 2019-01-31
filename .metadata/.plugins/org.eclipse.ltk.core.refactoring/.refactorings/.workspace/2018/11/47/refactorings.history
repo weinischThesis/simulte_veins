@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;veins-veins-4.6/examples/veins/veinsNew&apos;" deleteContents="false" description="Delete resource &apos;veins-veins-4.6/examples/veins/veinsNew&apos;" element1="/veins-veins-4.6/examples/veins/veinsNew" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1542738584304"/>&#x0A;<refactoring comment="Delete resource &apos;veins-veins-4.6/examples/VeinsNew&apos;" deleteContents="false" description="Delete resource &apos;veins-veins-4.6/examples/VeinsNew&apos;" element1="/veins-veins-4.6/examples/VeinsNew" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1542739084997"/>
+</session>
