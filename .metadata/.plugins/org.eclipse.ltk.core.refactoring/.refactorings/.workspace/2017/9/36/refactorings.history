@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;simulte/simulations/cars/results&apos;" deleteContents="false" description="Delete resource &apos;simulte/simulations/cars/results&apos;" element1="/simulte/simulations/cars/results" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1504794807651"/>
-</session>

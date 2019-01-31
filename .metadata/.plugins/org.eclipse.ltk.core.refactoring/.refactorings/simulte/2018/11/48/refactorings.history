@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;simulte/simulations/cars/Erlangen.ned&apos; to &apos;ErlangenLTE.ned&apos;" description="Rename resource &apos;Erlangen.ned&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="simulations/cars/Erlangen.ned" name="ErlangenLTE.ned" stamp="1543256148459" updateReferences="true"/>
-</session>

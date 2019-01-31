@@ -1,5 +1,0 @@
-13:14:50 **** Incremental Build of configuration debug for project Erlangen ****
-make MODE=debug all 
-
-13:14:51 Build Finished (took 1s.532ms)
-
