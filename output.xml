@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fr 01 Feb 2019 14:42:38 CET by SUMO gui Version 0.30.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="erlangen.net.xml"/>
+        <route-files value="trip.rou.xml"/>
+        <additional-files value="erlangen.poly.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="72000"/>
+        <step-length value="10"/>
+    </time>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="0" depart="0.00" departLane="4797872_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="7860.00" arrivalLane="-4099309_0" arrivalPos="390.36" arrivalSpeed="9.30" duration="7860.00" routeLength="37218.55" waitSteps="327" timeLoss="5595.80" rerouteNo="0" devices="tripinfo_0" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
+</tripinfos>

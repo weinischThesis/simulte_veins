@@ -74,7 +74,7 @@ def checkIfAllEdgesUsed():
 def findRandomTripVars():
 	for i in range(1,11):
 		t = 16+i
-		command = "~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 25 -p 0.1 -r trip.rou.xml --seed 12388 --intermediate 19"
+		command = "~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 2500 -p 10 -r trip.rou.xml --seed 12388 --intermediate 19"
 		print("Seed: %i"%(i))
 		os.system(command)
 		if checkIfAllEdgesUsed():

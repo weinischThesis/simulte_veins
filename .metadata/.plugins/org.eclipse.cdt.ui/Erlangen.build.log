@@ -1,5 +1,5 @@
-13:14:50 **** Incremental Build of configuration debug for project Erlangen ****
+15:41:35 **** Incremental Build of configuration debug for project Erlangen ****
 make MODE=debug all 
 
-13:14:51 Build Finished (took 1s.532ms)
+15:41:35 Build Finished (took 425ms)
 

@@ -6347,3 +6347,216 @@ make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ w
 make MODE=debug all 
 13:14:50 **** Incremental Build of configuration debug for project Erlangen ****
 make MODE=debug all 
+15:36:21 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:36:23 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:36:30 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:36:31 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:36:33 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:36:34 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:36:35 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:36:36 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+HelperModule.cc
+HelperModule.cc: In member function ‘virtual void HelperModule::initialize()’:
+HelperModule.cc:32:15: warning: unused variable ‘erlangenModule’ [-Wunused-variable]
+     cModule * erlangenModule = getParentModule();
+               ^
+HelperModule.cc: In member function ‘virtual void HelperModule::updateEnodesFromSumoToOmnet(omnetpp::cModule*, int)’:
+HelperModule.cc:51:19: warning: unused variable ‘eNodeB’ [-Wunused-variable]
+         cModule * eNodeB = erlangen->getSubmodule(nodeName);
+                   ^
+Creating executable: out/gcc-debug//Erlangen
+15:38:48 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:38:49 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:38:51 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:38:52 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:38:53 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:38:54 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+helper/MapChecker.cc: In member function ‘virtual void MapChecker::finish()’:
+helper/MapChecker.cc:76:83: error: no matching function for call to ‘to_string(const char*)’
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                   ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/cownedobject.h:20,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/carray.h:19,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp.h:28,
+                 from helper/MapChecker.cc:12:
+/usr/include/c++/5/bits/basic_string.h:5299:3: note: candidate: std::__cxx11::string std::__cxx11::to_string(int) <near match>
+   to_string(int __val)
+   ^
+/usr/include/c++/5/bits/basic_string.h:5299:3: note:   conversion of argument 1 would be ill-formed:
+helper/MapChecker.cc:76:81: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                 ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/cownedobject.h:20,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/carray.h:19,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp.h:28,
+                 from helper/MapChecker.cc:12:
+/usr/include/c++/5/bits/basic_string.h:5304:3: note: candidate: std::__cxx11::string std::__cxx11::to_string(unsigned int) <near match>
+   to_string(unsigned __val)
+   ^
+/usr/include/c++/5/bits/basic_string.h:5304:3: note:   conversion of argument 1 would be ill-formed:
+helper/MapChecker.cc:76:81: error: invalid conversion from ‘const char*’ to ‘unsigned int’ [-fpermissive]
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                 ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/cownedobject.h:20,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/carray.h:19,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp.h:28,
+                 from helper/MapChecker.cc:12:
+/usr/include/c++/5/bits/basic_string.h:5310:3: note: candidate: std::__cxx11::string std::__cxx11::to_string(long int) <near match>
+   to_string(long __val)
+   ^
+/usr/include/c++/5/bits/basic_string.h:5310:3: note:   conversion of argument 1 would be ill-formed:
+helper/MapChecker.cc:76:81: error: invalid conversion from ‘const char*’ to ‘long int’ [-fpermissive]
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                 ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/cownedobject.h:20,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/carray.h:19,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp.h:28,
+                 from helper/MapChecker.cc:12:
+/usr/include/c++/5/bits/basic_string.h:5315:3: note: candidate: std::__cxx11::string std::__cxx11::to_string(long unsigned int) <near match>
+   to_string(unsigned long __val)
+   ^
+/usr/include/c++/5/bits/basic_string.h:5315:3: note:   conversion of argument 1 would be ill-formed:
+helper/MapChecker.cc:76:81: error: invalid conversion from ‘const char*’ to ‘long unsigned int’ [-fpermissive]
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                 ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/cownedobject.h:20,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/carray.h:19,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp.h:28,
+                 from helper/MapChecker.cc:12:
+/usr/include/c++/5/bits/basic_string.h:5321:3: note: candidate: std::__cxx11::string std::__cxx11::to_string(long long int) <near match>
+   to_string(long long __val)
+   ^
+/usr/include/c++/5/bits/basic_string.h:5321:3: note:   conversion of argument 1 would be ill-formed:
+helper/MapChecker.cc:76:81: error: invalid conversion from ‘const char*’ to ‘long long int’ [-fpermissive]
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                 ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/cownedobject.h:20,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp/carray.h:19,
+                 from /home/chris/omnetpp-5.1.1/include/omnetpp.h:28,
+                 from helper/MapChecker.cc:12:
+/usr/include/c++/5/bits/basic_string.h:5327:3: note: candidate: std::__cxx11::string std::__cxx11::to_string(long long unsigned int) <near match>
+   to_string(unsigned long long __val)
+   ^
+/usr/include/c++/5/bits/basic_string.h:5327:3: note:   conversion of argument 1 would be ill-formed:
+helper/MapChecker.cc:76:81: error: invalid conversion from ‘const char*’ to ‘long long unsigned int’ [-fpermissive]
+     std::string filename = "workingCoordinates/"+std::to_string(car->getFullName())+".txt";
+                                                                                 ^
+make[1]: *** [../out/gcc-debug/src/helper/MapChecker.o] Fehler 1
+Makefile:285: die Regel für Ziel „../out/gcc-debug/src/helper/MapChecker.o“ scheiterte
+make: *** [all] Fehler 2
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+Makefile:2: die Regel für Ziel „all“ scheiterte
+15:38:57 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:38:58 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 
+15:41:09 **** Incremental Build of configuration debug for project aloha ****
+make MODE=debug all 
+15:41:11 **** Incremental Build of configuration gcc-debug for project inet ****
+make MODE=debug -j4 all 
+cd src && make
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird betreten
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_TKENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/chris/omnetpp-5.1.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvird -loppsimd -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/chris/omnetpp-5.1.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -L/home/chris/omnetpp-5.1.1/lib
+Building...
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/inet/src“ wird verlassen
+15:41:13 **** Incremental Build of configuration debug for project tictoc ****
+make MODE=debug all 
+15:41:14 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
+15:41:15 **** Incremental Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird betreten
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/subprojects/veins_inet/src“ wird verlassen
+15:41:16 **** Incremental Build of configuration gcc-debug for project simulte ****
+make MODE=debug -j4 all 
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird betreten
+helper/MapChecker.cc
+Creating shared library: ../out/gcc-debug/src/liblte.so
+make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/simulte/src“ wird verlassen
+15:41:34 **** Incremental Build of configuration debug for project ThesisTest ****
+make MODE=debug all 
+15:41:35 **** Incremental Build of configuration debug for project Erlangen ****
+make MODE=debug all 

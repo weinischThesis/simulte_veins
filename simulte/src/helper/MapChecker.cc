@@ -73,7 +73,7 @@ void MapChecker::handleMessage(cMessage *msg)
 void MapChecker::finish()
 {
     cModule * car = getParentModule();
-    std::string filename = "workingCoordinates/car"+std::to_string(car->getId())+".txt";
+    std::string filename = "workingCoordinates/"+std::string(car->getFullName())+".txt";
     std::ofstream file;
    // Veins::VeinsInetManager * veinsm = Veins::VeinsInetManagerAccess.get();
     Veins::TraCIScenarioManager* tracim = Veins::TraCIScenarioManagerAccess().get();
