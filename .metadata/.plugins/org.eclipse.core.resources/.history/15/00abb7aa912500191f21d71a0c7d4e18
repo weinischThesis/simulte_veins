@@ -807,7 +807,7 @@ sim-time-limit = 700s
 ##########################################################
 #            TraCIScenarioManager parameters             #
 ##########################################################
-#*.manager.updateInterval = 1s 
+#*.manager.updateInterval = 1s
 #*.manager.host = "localhost"
 #*.manager.port = 9999
 #*.manager.autoShutdown = true
