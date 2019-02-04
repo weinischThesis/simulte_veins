@@ -129,11 +129,11 @@ for row in cur.fetchall():
 
 laneIds = getLaneIdsList(net.getNeighboringLanes(((xmin+xmax)/2),((ymin+ymax)/2),20000))
 removingIds = [x for x in laneIds if x not in availableLanesList] 
-#createNewNetFile(laneIds,removingIds)
+createNewNetFile(laneIds,removingIds)
 
 
 
-print(checkIfAllEdgesUsed()) 	
+#print(checkIfAllEdgesUsed()) 	
 
 
 

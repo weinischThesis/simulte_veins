@@ -66,22 +66,35 @@ def checkIfAllEdgesUsed():
 	allEdges = []
 	for edge in net.getEdges():
 		allEdges.append(edge.getID())
-	#print("Num Of Edges:%s\n"%(len(allEdges)))
+	#print("Diff Edges :%i\n"%(len(allEdges)-len(checkedEdges)))
 	#print("Num Of CheckedEdges:%s\n"%(len(checkedEdges)))
-	return [x for x in allEdges if x not in checkedEdges] == []
+	#return [x for x in allEdges if x not in checkedEdges] == []
+	print [x for x in allEdges if x not in checkedEdges]
+	return len(allEdges)-len(checkedEdges)
 
 
 def findRandomTripVars():
-	for i in range(1,11):
-		t = 16+i
-		command = "~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 25 -p 0.1 -r trip.rou.xml --seed 12388 --intermediate 19"
-		print("Seed: %i"%(i))
-		os.system(command)
-		if checkIfAllEdgesUsed():
-			print("Found Seed: %i"%(i))
-			break
+	smallestDiff = [20,""]
+	#for i in range(220,242):
+#		for seed in range (0,25):
+#			for fringe in range(10,11):
+#					command = "~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor %i -b 0 -e %i -p 1 -r trip.rou.xml --seed %i --intermediate 2"%(fringe,i,1+(123*seed))
+#					#print("# %i, inter %i  "%(j,t))
+	command = "~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 220 -p 1 -r trip.rou.xml --seed 1600 --intermediate 2"
+	os.system(command)
+	diff = checkIfAllEdgesUsed()
+	if diff == 0:
+		print("!!!\n!!!\nFound Command:")
+		print(command)
+		#break
+	elif smallestDiff[0] > diff:
+		smallestDiff = [diff,command]
+		print(smallestDiff)
+	print(smallestDiff)
 
 #~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 25 -p 0.1 -r trip.rou.xml --seed 12388 --intermediate 19
+
+#~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 750000 -p 3000 -r trip.rou.xml --seed 12388 --intermediate 19
 
 
 
@@ -131,6 +144,7 @@ laneIds = getLaneIdsList(net.getNeighboringLanes(((xmin+xmax)/2),((ymin+ymax)/2)
 removingIds = [x for x in laneIds if x not in availableLanesList] 
 #createNewNetFile(laneIds,removingIds)
 
+findRandomTripVars()
 
 
 print(checkIfAllEdgesUsed()) 	

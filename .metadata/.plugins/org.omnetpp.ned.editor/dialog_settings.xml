@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.omnetpp.ned.editor.graph.dialogs.PropertiesDialog:connection">
+		<item value="692" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="0" key="activePage"/>
+		<item value="661" key="DIALOG_HEIGHT"/>
+		<item value="582" key="DIALOG_X_ORIGIN"/>
+		<item value="166" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="ViewerSettings">
+		<item value="0.2693291" key="erlangen.ErlangenLTE:scale"/>
 	</section>
 	<section name="org.omnetpp.ned.editor.graph.dialogs.PropertiesDialog:submodule">
 		<item value="678" key="DIALOG_WIDTH"/>

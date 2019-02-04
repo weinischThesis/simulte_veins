@@ -41,6 +41,8 @@ network ErlangenLTE
         double playgroundSizeX @unit(m); // x size of the area the nodes are in (in meters)
         double playgroundSizeY @unit(m); // y size of the area the nodes are in (in meters)
         double playgroundSizeZ @unit(m); // z size of the area the nodes are in (in meters)
+        @display("bgb=3000,3000");
+        //@display("bgb=3000,3000;bgi=background/erlangenMap,s");
 		//@display("bgb=$playgroundSizeX,$playgroundSizeY");
     submodules:
         obstacles: ObstacleControl {
@@ -91,210 +93,208 @@ network ErlangenLTE
             @display("p=464.75,49.01;is=l");
         }
         eNodeB1: eNodeB {
-            @display("p=251.240162,1464.765155");
+            @display("p=251.240162,1464.765155;r=500,,green,1");
         }
         eNodeB2: eNodeB {
-            @display("p=1112.901067,870.530046");
+            @display("p=1112.901067,870.530046;r=500,,green,1");
         }
         eNodeB3: eNodeB {
-            @display("p=1214.380900,333.056198");
+            @display("p=1214.380900,333.056198;r=500,,green,1");
         }
         eNodeB4: eNodeB {
-            @display("p=585.606799,157.855732");
+            @display("p=585.606799,157.855732;r=500,,green,1");
         }
         eNodeB5: eNodeB {
-            @display("p=934.162995,894.779161");
+            @display("p=934.162995,894.779161;r=500,,green,1");
         }
         eNodeB6: eNodeB {
-            @display("p=282.222054,1090.382179");
+            @display("p=282.222054,1090.382179;r=500,,green,1");
         }
         eNodeB7: eNodeB {
-            @display("p=1381.235532,999.171835");
+            @display("p=1381.235532,999.171835;r=500,,green,1");
         }
         eNodeB8: eNodeB {
-            @display("p=1277.746163,1256.475253");
+            @display("p=1277.746163,1256.475253;r=500,red,green,1");
         }
         eNodeB9: eNodeB {
-            @display("p=776.565028,1206.915877");
+            @display("p=776.565028,1206.915877;r=500,,green,1");
         }
         eNodeB10: eNodeB {
-            @display("p=1379.249864,1313.604716");
+            @display("p=1379.249864,1313.604716;r=500,,green,1");
         }
         eNodeB11: eNodeB {
-            @display("p=420.858546,1822.573343");
+            @display("p=420.858546,1822.573343;r=500,,green,1");
         }
         eNodeB12: eNodeB {
-            @display("p=1361.232503,252.767070");
+            @display("p=1361.232503,252.767070;r=500,,green,1");
         }
         eNodeB13: eNodeB {
-            @display("p=1290.626016,1324.101045");
+            @display("p=1290.626016,1324.101045;r=500,,green,1");
         }
         eNodeB14: eNodeB {
-            @display("p=409.157723,1423.962357");
+            @display("p=409.157723,1423.962357;r=500,,red,1");
         }
         eNodeB15: eNodeB {
-            @display("p=1792.038458,1403.087741");
+            @display("p=1792.038458,1403.087741;r=500,,green,1");
         }
         eNodeB16: eNodeB {
-            @display("p=2438.638402,1470.545365");
+            @display("p=2438.638402,1470.545365;r=500,,green,1");
         }
         eNodeB17: eNodeB {
-            @display("p=467.960875,276.648720");
+            @display("p=467.960875,276.648720;r=500,,green,1");
         }
         eNodeB18: eNodeB {
-            @display("p=917.427940,1792.417256");
+            @display("p=917.427940,1792.417256;r=500,,green,1");
         }
         eNodeB19: eNodeB {
-            @display("p=899.696043,1629.694820");
+            @display("p=899.696043,1629.694820;r=500,,green,1");
         }
         eNodeB20: eNodeB {
-            @display("p=666.465774,271.354379");
+            @display("p=666.465774,271.354379;r=500,,green,1");
         }
         eNodeB21: eNodeB {
-            @display("p=2333.076143,73.803755");
+            @display("p=2333.076143,73.803755;r=500,,green,1");
         }
         eNodeB22: eNodeB {
-            @display("p=303.654069,1566.827801");
+            @display("p=303.654069,1566.827801;r=500,,green,1");
         }
         eNodeB23: eNodeB {
-            @display("p=1941.746611,531.007856");
+            @display("p=1941.746611,531.007856;r=500,,green,1");
         }
         eNodeB24: eNodeB {
-            @display("p=1799.289077,1768.731531");
+            @display("p=1799.289077,1768.731531;r=500,,green,1");
         }
         eNodeB25: eNodeB {
-            @display("p=826.046741,668.169948");
+            @display("p=826.046741,668.169948;r=500,,green,1");
         }
         eNodeB26: eNodeB {
-            @display("p=2300.337845,2181.915381");
+            @display("p=2300.337845,2181.915381;r=500,,green,1");
         }
         eNodeB27: eNodeB {
-            @display("p=630.524274,1158.417174");
+            @display("p=630.524274,1158.417174;r=500,,green,1");
         }
         eNodeB28: eNodeB {
-            @display("p=1593.829286,1516.432774");
+            @display("p=1593.829286,1516.432774;r=500,,green,1");
         }
         eNodeB29: eNodeB {
-            @display("p=474.860486,743.286265");
+            @display("p=474.860486,743.286265;r=500,,green,1");
         }
         eNodeB30: eNodeB {
-            @display("p=1339.002960,513.938838");
+            @display("p=1339.002960,513.938838;r=500,,green,1");
         }
         eNodeB31: eNodeB {
-            @display("p=1235.161598,1341.050033");
+            @display("p=1235.161598,1341.050033;r=500,,green,1");
         }
         eNodeB32: eNodeB {
-            @display("p=1209.076863,545.454570");
+            @display("p=1209.076863,545.454570;r=500,,green,1");
         }
         eNodeB33: eNodeB {
-            @display("p=189.771205,867.126853");
+            @display("p=189.771205,867.126853;r=500,,green,1");
         }
         eNodeB34: eNodeB {
-            @display("p=656.538821,1067.948632");
+            @display("p=656.538821,1067.948632;r=500,,green,1");
         }
         eNodeB35: eNodeB {
-            @display("p=1084.521405,1394.030673");
+            @display("p=1084.521405,1394.030673;r=500,,green,1");
         }
         eNodeB36: eNodeB {
-            @display("p=1756.421890,175.334522");
+            @display("p=1756.421890,175.334522;r=500,,green,1");
         }
         eNodeB37: eNodeB {
-            @display("p=196.210263,1182.667099");
+            @display("p=196.210263,1182.667099;r=500,,green,1");
         }
         eNodeB38: eNodeB {
-            @display("p=1663.091796,397.436614");
+            @display("p=1663.091796,397.436614;r=500,,green,1");
         }
         eNodeB39: eNodeB {
-            @display("p=1825.773874,2197.698901");
+            @display("p=1825.773874,2197.698901;r=500,,green,1");
         }
         eNodeB40: eNodeB {
-            @display("p=614.407764,1809.962084");
+            @display("p=614.407764,1809.962084;r=500,,green,1");
         }
         eNodeB41: eNodeB {
-            @display("p=339.772823,1355.614560");
+            @display("p=339.772823,1355.614560;r=500,,green,1");
         }
         eNodeB42: eNodeB {
-            @display("p=81.098536,1203.526374");
+            @display("p=81.098536,1203.526374;r=500,,green,1");
         }
         eNodeB43: eNodeB {
-            @display("p=93.167691,1480.759930");
+            @display("p=93.167691,1480.759930;r=500,,green,1");
         }
         eNodeB44: eNodeB {
-            @display("p=1672.619902,466.826677");
+            @display("p=1672.619902,466.826677;r=500,,green,1");
         }
         eNodeB45: eNodeB {
-            @display("p=309.246108,1149.067491");
+            @display("p=309.246108,1149.067491;r=500,,green,1");
         }
         eNodeB46: eNodeB {
-            @display("p=1079.165612,472.173669");
+            @display("p=1079.165612,472.173669;r=500,,green,1");
         }
         eNodeB47: eNodeB {
-            @display("p=1309.200169,1183.100422");
+            @display("p=1309.200169,1183.100422;r=500,,green,1");
         }
         eNodeB48: eNodeB {
-            @display("p=956.334639,1748.548132");
+            @display("p=956.334639,1748.548132;r=500,,green,1");
         }
         eNodeB49: eNodeB {
-            @display("p=470.026684,352.946133");
+            @display("p=470.026684,352.946133;r=500,,green,1");
         }
         eNodeB50: eNodeB {
-            @display("p=231.227900,1313.448999");
+            @display("p=231.227900,1313.448999;r=500,,green,1");
         }
         eNodeB51: eNodeB {
-            @display("p=371.780756,713.103978");
+            @display("p=371.780756,713.103978;r=500,,green,1");
         }
         eNodeB52: eNodeB {
-            @display("p=579.428015,731.991228");
+            @display("p=579.428015,731.991228;r=500,,green,1");
         }
         eNodeB53: eNodeB {
-            @display("p=583.499409,884.654088");
+            @display("p=583.499409,884.654088;r=500,,green,1");
         }
         eNodeB54: eNodeB {
-            @display("p=433.587506,1700.199191");
+            @display("p=433.587506,1700.199191;r=500,,green,1");
         }
         eNodeB55: eNodeB {
-            @display("p=964.223023,263.399268");
+            @display("p=964.223023,263.399268;r=500,,green,1");
         }
         eNodeB56: eNodeB {
-            @display("p=134.548254,370.776685");
+            @display("p=134.548254,370.776685;r=500,,green,1");
         }
         eNodeB57: eNodeB {
-            @display("p=1356.446575,1396.648892");
+            @display("p=1356.446575,1396.648892;r=500,,green,1");
         }
         eNodeB58: eNodeB {
-            @display("p=694.985049,1339.994256");
+            @display("p=694.985049,1339.994256;r=500,,green,1");
         }
         eNodeB59: eNodeB {
-            @display("p=1880.670933,1785.503329");
+            @display("p=1880.670933,1785.503329;r=500,,green,1");
         }
         eNodeB60: eNodeB {
-            @display("p=1558.271780,1647.099641");
+            @display("p=1558.271780,1647.099641;r=500,,green,1");
         }
         eNodeB61: eNodeB {
-            @display("p=2314.255696,2080.973443");
+            @display("p=2314.255696,2080.973443;r=500,,green,1");
         }
         eNodeB62: eNodeB {
-            @display("p=1362.583429,303.608650");
+            @display("p=1362.583429,303.608650;r=500,,green,1");
         }
         eNodeB63: eNodeB {
-            @display("p=1280.407070,1371.987849");
+            @display("p=1280.407070,1371.987849;r=500,,green,1");
         }
         eNodeB64: eNodeB {
-            @display("p=1710.011547,1325.306879");
+            @display("p=1710.011547,1325.306879;r=500,,green,1");
         }
         eNodeB65: eNodeB {
-            @display("p=1506.657605,1753.723008");
+            @display("p=1506.657605,1753.723008;r=500,,green,1");
         }
         eNodeB66: eNodeB {
-            @display("p=486.658242,1433.022243");
+            @display("p=486.658242,1433.022243;r=500,,green,1");
         }
 
 
     connections allowunconnected:
         server.pppg++ <--> Eth10G <--> router.pppg++;
         router.pppg++ <--> Eth10G <--> pgw.filterGate;
-        pgw.pppg++ <--> Eth10G { @display("ls=black,0,d"); } <--> eNodeB1.ppp;
-        pgw.pppg++ <--> Eth10G { @display("ls=black,0,d"); } <--> eNodeB2.ppp;
         pgw.pppg++ <--> Eth100G { @display("ls=black,0,d"); } <--> eNodeB1.ppp;
         pgw.pppg++ <--> Eth100G { @display("ls=black,0,d"); } <--> eNodeB2.ppp;
         pgw.pppg++ <--> Eth100G { @display("ls=black,0,d"); } <--> eNodeB3.ppp;
@@ -363,242 +363,389 @@ network ErlangenLTE
         pgw.pppg++ <--> Eth100G { @display("ls=black,0,d"); } <--> eNodeB66.ppp;
 
         //# X2 connections 
-        eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB22.x2++;
-        eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB41.x2++;
-        eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB14.x2++;
-        eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB43.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB5.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB7.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB32.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB8.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB9.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB25.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB30.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB31.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB12.x2++;
-        eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB30.x2++;
-        eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB32.x2++;
-        eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB55.x2++;
-        eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB17.x2++;
-        eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB20.x2++;
-        eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB55.x2++;
-        eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB25.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB34.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB7.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB8.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB9.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB27.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB29.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB32.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB37.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB45.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB27.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB29.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB33.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB34.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB42.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB16.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB23.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB10.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB30.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB32.x2++;
-        eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB13.x2++;
-        eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB31.x2++;
-        eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB10.x2++;
-        eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB35.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB27.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB34.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB19.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB31.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB35.x2++;
-        eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB13.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB15.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB28.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB22.x2++;
-        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
-        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
-        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
-        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB18.x2++;
-        eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB43.x2++;
-        eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB36.x2++;
-        eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB38.x2++;
-        eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB55.x2++;
-        eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB31.x2++;
-        eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
-        eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB41.x2++;
-        eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB22.x2++;
-        eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB27.x2++;
-        eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB45.x2++;
-        eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
-        eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB28.x2++;
-        eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB60.x2++;
-        eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB24.x2++;
-        eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
-        eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
-        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB15.x2++;
-        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB21.x2++;
-        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB23.x2++;
-        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
-        eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB61.x2++;
-        eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB20.x2++;
-        eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB49.x2++;
-        eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
-        eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB19.x2++;
-        eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
-        eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
-        eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB48.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB35.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB48.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB49.x2++;
-        eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB25.x2++;
-        eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB55.x2++;
-        eNodeB21.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB23.x2++;
-        eNodeB21.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB36.x2++;
-        eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
-        eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB41.x2++;
-        eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB43.x2++;
-        eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB36.x2++;
-        eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB38.x2++;
-        eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
-        eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
-        eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB60.x2++;
-        eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB28.x2++;
-        eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB32.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB34.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB49.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB51.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB55.x2++;
-        eNodeB26.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
-        eNodeB26.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
-        eNodeB26.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB61.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB34.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB29.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB41.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB45.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB60.x2++;
-        eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
-        eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB51.x2++;
-        eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB33.x2++;
-        eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB49.x2++;
-        eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB32.x2++;
-        eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB38.x2++;
-        eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
-        eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB35.x2++;
-        eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB46.x2++;
-        eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB51.x2++;
-        eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB37.x2++;
-        eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB42.x2++;
-        eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
-        eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB45.x2++;
-        eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB47.x2++;
-        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB48.x2++;
-        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB57.x2++;
-        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB38.x2++;
-        eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB42.x2++;
-        eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB45.x2++;
-        eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB41.x2++;
-        eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB38.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB44.x2++;
-        eNodeB38.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB40.x2++;
-        eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
-        eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB54.x2++;
-        eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB45.x2++;
-        eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB42.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB42.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB43.x2++;
-        eNodeB43.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB44.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB50.x2++;
-        eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB46.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB55.x2++;
-        eNodeB46.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB62.x2++;
-        eNodeB47.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB51.x2++;
-        eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
-        eNodeB51.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB52.x2++;
-        eNodeB51.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB51.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB56.x2++;
-        eNodeB52.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB53.x2++;
-        eNodeB54.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB58.x2++;
-        eNodeB54.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB63.x2++;
-        eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB60.x2++;
-        eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB64.x2++;
-        eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB58.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB66.x2++;
-        eNodeB60.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
-        eNodeB61.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB39.x2++;
-        eNodeB61.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB59.x2++;
-        eNodeB63.x2++ <--> Eth100G { @display("ls=grey25,1,d"); } <--> eNodeB65.x2++;
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB22.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB14.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB5.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB7.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB8.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB9.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB25.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB30.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB12.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB30.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB17.x2++; 
+    	eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB20.x2++; 
+    	eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB56.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB25.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB7.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB8.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB9.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB27.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB29.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB5.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB27.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB29.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB33.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB16.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB23.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB10.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB30.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB9.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB13.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB10.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB27.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB19.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB13.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB15.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB28.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB22.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB39.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB40.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB18.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB36.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB22.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB27.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB28.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB24.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB15.x2++; 
+    	eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB21.x2++; 
+    	eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB23.x2++; 
+    	eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB61.x2++; 
+    	eNodeB16.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB20.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB49.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB56.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB19.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB39.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB40.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB48.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB48.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB40.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB49.x2++; 
+    	eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB25.x2++; 
+    	eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB20.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB21.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB23.x2++; 
+    	eNodeB21.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB36.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB36.x2++; 
+    	eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB23.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB28.x2++; 
+    	eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB39.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB49.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB26.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB39.x2++; 
+    	eNodeB26.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB26.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB61.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB29.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB33.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB49.x2++; 
+    	eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB56.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB48.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB35.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB38.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB38.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB40.x2++; 
+    	eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB39.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB42.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB42.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB43.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB44.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB46.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB46.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB47.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB49.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB56.x2++; 
+    	eNodeB51.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB51.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB51.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB56.x2++; 
+    	eNodeB52.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB54.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB54.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB57.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB58.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB60.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB61.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB39.x2++; 
+    	eNodeB61.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB63.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB6.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB11.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB27.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB1.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB13.x2++; 
+    	eNodeB2.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB3.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB4.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB49.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB14.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB22.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB6.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB8.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB13.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB7.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB28.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB8.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB14.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB9.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB10.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB14.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB11.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB30.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB32.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB12.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB46.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB19.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB28.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB13.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB40.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB14.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB15.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB29.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB17.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB35.x2++; 
+    	eNodeB18.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB19.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB21.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB40.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB22.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB24.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB25.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB29.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB27.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB31.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB59.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB28.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB34.x2++; 
+    	eNodeB29.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB30.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB47.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB48.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB31.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB38.x2++; 
+    	eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB32.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB55.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB33.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB37.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB41.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB50.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB34.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB36.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB44.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB53.x2++; 
+    	eNodeB37.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB40.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB48.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB42.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB43.x2++; 
+    	eNodeB41.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB42.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB42.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB43.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB45.x2++; 
+    	eNodeB43.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB43.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB51.x2++; 
+    	eNodeB45.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB52.x2++; 
+    	eNodeB47.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB57.x2++; 
+    	eNodeB47.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB48.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB50.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB54.x2++; 
+    	eNodeB50.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB50.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB66.x2++; 
+    	eNodeB53.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB58.x2++; 
+    	eNodeB55.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB62.x2++; 
+    	eNodeB59.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB60.x2++; 
+    	eNodeB59.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+    	eNodeB59.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB60.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB63.x2++; 
+    	eNodeB60.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB63.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB64.x2++; 
+    	eNodeB64.x2++ <--> Eth100G { @display("ls=grey25,1,d"); }<--> eNodeB65.x2++; 
+	
+
+
 
 }
 

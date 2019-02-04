@@ -1,0 +1,49 @@
+
+#include <string.h>
+#include <omnetpp.h>
+#include <string>
+#include "veins/base/utils/Coord.h"
+#include "veins/modules/mobility/traci/TraCIScenarioManager.h"
+#include "veins/modules/mobility/traci/TraCIScenarioManagerLaunchd.h"
+#include <vector>
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include "veins_inet/VeinsInetMobility.h"
+#include "veins_inet/VeinsInetManager.h"
+#include "veins/modules/mobility/traci/TraCIConnection.h"
+#include "veins/modules/mobility/traci/TraCICoord.h"
+
+using namespace omnetpp;
+
+
+class Car : public cSimpleModule
+{
+    protected:
+        virtual void finish() override;
+};
+Define_Module(Car);
+
+
+void Car::finish()
+{
+    cModule * car = getParentModule();
+    std::string filename = "workingCoordinates/"+std::string(car->getFullName())+".txt";
+    std::ofstream file;
+   // Veins::VeinsInetManager * veinsm = Veins::VeinsInetManagerAccess.get();
+    Veins::TraCIScenarioManager* tracim = Veins::TraCIScenarioManagerAccess().get();
+    Veins::TraCIConnection* connection = tracim->getConnection();
+    file.open(filename.c_str());
+    for (auto &coord : coordinates)
+    {
+        Coord omCoord = Coord(coord.x,coord.y,coord.z);
+        Veins::TraCICoord traciCoord = connection->omnet2traci(omCoord);
+
+        file << std::fixed << std::setprecision(2) << traciCoord.x << "," << std::fixed << std::setprecision(2) << traciCoord.y <<"\n";
+    }
+    file.close();
+    coordinates.clear();
+}
+
+
+

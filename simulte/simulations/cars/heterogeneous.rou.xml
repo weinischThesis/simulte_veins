@@ -5,7 +5,11 @@
   <route id="2" edges="1/2to1/1 1/1to1/0"/>
   <route id="3" edges="2/1to1/1 1/1to0/1"/>
   <route id="4" edges="0/1to1/1 1/1to2/1"/>
-  <vehicle id="0" type="car" route="2" depart="0"/>
+  <vehicle id="5" type="car" route="1" depart="0"/>
+  <vehicle id="6" type="car" route="2" depart="2"/>
+  <vehicle id="7" type="car" route="4" depart="4"/>
+  
+  <!--
   <vehicle id="1" type="car" route="3" depart="0"/>
   <vehicle id="2" type="car" route="2" depart="2"/>
   <vehicle id="3" type="car" route="3" depart="3"/>
@@ -15,7 +19,7 @@
   <vehicle id="6" type="car" route="2" depart="10"/>
   <vehicle id="8" type="car" route="2" depart="12"/>
   <vehicle id="9" type="car" route="3" depart="20"/>
-  <!--
+  
   <vehicle id="0" type="car" route="2" depart="0"/>
   <vehicle id="1" type="car" route="3" depart="0"/>
   <vehicle id="2" type="car" route="2" depart="2"/>

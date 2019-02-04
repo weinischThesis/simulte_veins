@@ -1,7 +1,7 @@
-15:41:14 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
+21:13:35 **** Incremental Build of configuration gcc-debug for project veins-veins-4.6 ****
 make MODE=debug all 
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird betreten
 make[1]: Verzeichnis „/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6/src“ wird verlassen
 
-15:41:15 Build Finished (took 483ms)
+21:13:37 Build Finished (took 1s.666ms)
 

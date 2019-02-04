@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/chris/omnetpp-5.1.1/simulte_veins"/>
+		<item value="/home/chris/omnetpp-5.1.1/simulte_veins/Erlangen"/>
+		<item value="/home/chris/omnetpp-5.1.1/simulte_veins/simulte"/>
+		<item value="/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6"/>
+		<item value="/home/chris/omnetpp-5.1.1/simulte_veins/inet"/>
+	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/chris/omnetpp-5.1.1/simulte_veins/simulte"/>
+			<item value="/home/chris/omnetpp-5.1.1/simulte_veins/veins-veins-4.6"/>
 			<item value="/home/chris/omnetpp-5.1.1/simulte_veins"/>
 			<item value="/home/giovanni/sim/simulte_veins/veins-veins-4.6"/>
 			<item value="/home/giovanni/sim/simulte_veins/inet"/>
