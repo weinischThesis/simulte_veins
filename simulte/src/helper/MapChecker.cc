@@ -62,7 +62,7 @@ void MapChecker::handleMessage(cMessage *msg)
     double y = std::stod(coordString.substr(coordString.find(",")+1));
     Coord checkedCoord = Coord(x,y,0);
 */
-    if (coordinates.empty() || checkedCoord.distance(coordinates.back())>6){
+    if (coordinates.empty() || checkedCoord.distance(coordinates.back())>3){
         coordinates.push_back(checkedCoord);
     }
     //this->getParentNode()->getSub

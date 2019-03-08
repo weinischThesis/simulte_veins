@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="car" key="selection"/>
+		<item value="txPow" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="txpow"/>
+			<item value="handove"/>
+			<item value="2"/>
 			<item value="car"/>
 			<item value="ltemacenbr"/>
 			<item value="map"/>
 			<item value="nic"/>
 			<item value=",green,green"/>
-			<item value="image"/>
-			<item value=",green,black,"/>
-			<item value="pMax"/>
 		</list>
 		<list key="replacehistory">
 			<item value=",,green"/>
@@ -26,7 +26,7 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="314" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="498" key="DIALOG_HEIGHT"/>
+		<item value="554" key="DIALOG_HEIGHT"/>
 		<item value="1100" key="DIALOG_X_ORIGIN"/>
 		<item value="186" key="DIALOG_Y_ORIGIN"/>
 	</section>
