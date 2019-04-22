@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat Apr 13 22:36:09 2019 by SUMO duarouter Version 0.30.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="comparison.net.xml"/>
+        <trip-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="comparison.rou.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="40.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+113939242#0
+
+36- no connection
+36- no connection
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<vType id="custom1" vClass="custom1" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+	<vType id="custom2" vClass="custom2" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+    <flow id="0"   begin="0.00" from="8402997" to="10425128#0" number="1"/>
+    <flow id="1"   begin="2.00" from="4006688#4" to="44069041#0" number="1"/>
+    <flow id="2"   begin="4.00" from="4900041#3" to="3013109" number="1"/>
+    <flow id="3"   begin="6.00" from="31401017#1" to="-29900564#1" number="1"/>
+    <flow id="4"   begin="8.00" from="-3998645#1" to="113939241" number="1"/>
+    <flow id="5"   begin="10.00" from="-23605595" to="4006674#3" number="1"/>
+    <flow id="6"   begin="12.00" from="-4006724#2" to="31241835#1" number="1"/>
+    <flow id="7"   begin="14.00" from="31241816#1" to="-31241851#1" number="1"/>
+    <flow id="8"   begin="16.00" from="-32270592#0" to="-3013107" number="1"/>
+    <flow id="9"   begin="18.00" from="4006688#1" to="23341293" number="1"/>
+    <flow id="10"   begin="20.00" from="30350449" to="-28269601" number="1"/>
+    <flow id="11"   begin="22.00" from="29900561#0" to="126606716" number="1"/>
+    <flow id="12"   begin="24.00" from="30405352" to="-29900564#3" number="1"/>
+    <flow id="13"   begin="26.00" from="3013107" to="-3998645#0" number="1"/>
+    <flow id="14"   begin="28.00" from="29900564#4" to="31241855#0" number="1"/>
+    <flow id="15"   begin="30.00" from="23350930" to="-4006724#0" number="1"/>
+    <flow id="16"   begin="32.00" from="-3998643#0" to="4900041#1" number="1"/>
+    <flow id="17"   begin="34.00" from="113939244#1" to="28613727#0" number="1"/>
+    <flow id="18"   begin="36.00" from="4006688#4" to="25472079" number="1"/>
+    <flow id="19"   begin="38.00" from="-10425128#1" to="-31241848" number="1"/>
+    <flow id="20"   begin="40.00" from="-31401017#1" to="4006674#2" number="1"/>
+    <flow id="21"   begin="42.00" from="-31401017#1" to="4006674#2" number="1"/>
+    <flow id="22"   begin="44.00" from="-23570844#1" to="-125685391" number="1"/>
+    <flow id="23"   begin="46.00" from="-3013109" to="4047532" number="1"/>
+    <flow id="24"   begin="48.00" from="31353573#0" to="4047532" number="1"/>
+    <flow id="25"   begin="50.00" from="4006693#1" to="-32302591#0" number="1"/>
+
+    <flow id="26"  type="custom1" begin="150.00" from="8402997" to="10425128#0" number="1"/>
+    <flow id="27"  type="custom1" begin="152.00" from="4006688#4" to="44069041#0" number="1"/>
+    <flow id="28"  type="custom1" begin="154.00" from="4900041#3" to="3013109" number="1"/>
+    <flow id="29"  type="custom1" begin="156.00" from="31401017#1" to="-29900564#1" number="1"/>
+    
+    <flow id="31"  type="custom1" begin="160.00" from="-23605595" to="4006674#3" number="1"/>
+    <flow id="32"  type="custom1" begin="162.00" from="-4006724#2" to="31241835#1" number="1"/>
+    <flow id="33"  type="custom1" begin="164.00" from="31241816#1" to="-31241851#1" number="1"/>
+    <flow id="34"  type="custom1" begin="166.00" from="-32270592#0" to="-3013107" number="1"/>
+    <flow id="35"  type="custom1" begin="168.00" from="4006688#1" to="23341293" number="1"/>
+    <flow id="36"  type="custom1" begin="170.00" from="30350449" to="-28269601" number="1"/>
+    <flow id="37"  type="custom1" begin="172.00" from="29900561#0" to="126606716" number="1"/>
+    <flow id="38"  type="custom1" begin="174.00" from="30405352" to="-29900564#3" number="1"/>
+    <flow id="39"  type="custom1" begin="176.00" from="3013107" to="-3998645#0" number="1"/>
+    <flow id="40"  type="custom1" begin="178.00" from="29900564#4" to="31241855#0" number="1"/>
+    <flow id="41"  type="custom1" begin="180.00" from="23350930" to="-4006724#0" number="1"/>
+    <flow id="42"  type="custom1" begin="182.00" from="-3998643#0" to="4900041#1" number="1"/>
+    <flow id="43"  type="custom1" begin="184.00" from="113939244#1" to="28613727#0" number="1"/>
+    <flow id="44"  type="custom1" begin="186.00" from="4006688#4" to="25472079" number="1"/>
+    <flow id="45"  type="custom1" begin="188.00" from="-10425128#1" to="-31241848" number="1"/>
+    <flow id="46"  type="custom1" begin="190.00" from="-31401017#1" to="4006674#2" number="1"/>
+    <flow id="47"  type="custom1" begin="192.00" from="-31401017#1" to="4006674#2" number="1"/>
+    <flow id="48"  type="custom1" begin="194.00" from="-23570844#1" to="-125685391" number="1"/>
+    <flow id="49"  type="custom1" begin="196.00" from="-3013109" to="4047532" number="1"/>
+    <flow id="50"  type="custom1" begin="198.00" from="31353573#0" to="4047532" number="1"/>
+    <flow id="51"  type="custom1" begin="200.00" from="4006693#1" to="-32302591#0" number="1"/>
+
+    <flow id="52"  type="custom2" begin="300.00" from="8402997" to="10425128#0" number="1"/>
+    <flow id="53"  type="custom2" begin="302.00" from="4006688#4" to="44069041#0" number="1"/>
+    <flow id="54"  type="custom2" begin="304.00" from="4900041#3" to="3013109" number="1"/>
+    <flow id="55"  type="custom2" begin="306.00" from="31401017#1" to="-29900564#1" number="1"/>
+   
+    <flow id="57"  type="custom2" begin="310.00" from="-23605595" to="4006674#3" number="1"/>
+    <flow id="58"  type="custom2" begin="312.00" from="-4006724#2" to="31241835#1" number="1"/>
+    <flow id="59"  type="custom2" begin="314.00" from="31241816#1" to="-31241851#1" number="1"/>
+    <flow id="60"  type="custom2" begin="316.00" from="-32270592#0" to="-3013107" number="1"/>
+    <flow id="61"  type="custom2" begin="318.00" from="4006688#1" to="23341293" number="1"/>
+    <flow id="62"  type="custom2" begin="320.00" from="30350449" to="-28269601" number="1"/>
+    <flow id="63"  type="custom2" begin="322.00" from="29900561#0" to="126606716" number="1"/>
+    <flow id="64"  type="custom2" begin="324.00" from="30405352" to="-29900564#3" number="1"/>
+    <flow id="65"  type="custom2" begin="326.00" from="3013107" to="-3998645#0" number="1"/>
+    <flow id="66"  type="custom2" begin="328.00" from="29900564#4" to="31241855#0" number="1"/>
+    <flow id="67"  type="custom2" begin="330.00" from="23350930" to="-4006724#0" number="1"/>
+    <flow id="68"  type="custom2" begin="332.00" from="-3998643#0" to="4900041#1" number="1"/>
+    <flow id="69"  type="custom2" begin="334.00" from="113939244#1" to="28613727#0" number="1"/>
+    <flow id="70"  type="custom2" begin="336.00" from="4006688#4" to="25472079" number="1"/>
+    <flow id="71"  type="custom2" begin="338.00" from="-10425128#1" to="-31241848" number="1"/>
+    <flow id="72"  type="custom2" begin="340.00" from="-31401017#1" to="4006674#2" number="1"/>
+    <flow id="73"  type="custom2" begin="344.00" from="-31401017#1" to="4006674#2" number="1"/>
+    <flow id="74"  type="custom2" begin="348.00" from="-23570844#1" to="-125685391" number="1"/>
+    <flow id="75"  type="custom2" begin="350.00" from="-3013109" to="4047532" number="1"/>
+    <flow id="76"  type="custom2" begin="354.00" from="31353573#0" to="4047532" number="1"/>
+    <flow id="77"  type="custom2" begin="358.00" from="4006693#1" to="-32302591#0" number="1"/>
+
+</routes>

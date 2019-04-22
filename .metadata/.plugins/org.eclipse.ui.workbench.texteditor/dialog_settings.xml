@@ -2,31 +2,36 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="txPow" key="selection"/>
+		<item value="&quot;ls=black,0,d&quot;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="txpow"/>
-			<item value="handove"/>
-			<item value="2"/>
-			<item value="car"/>
-			<item value="ltemacenbr"/>
-			<item value="map"/>
-			<item value="nic"/>
-			<item value=",green,green"/>
+			<item value="&quot;ls=grey25,1,d&quot;"/>
+			<item value="&quot;ls=black,0,d&quot;"/>
+			<item value="r=500,,green,1"/>
+			<item value="sinr"/>
+			<item value="obsta"/>
+			<item value=";r=1000,green,green,1"/>
+			<item value="r=1000,green"/>
+			<item value="alpha"/>
 		</list>
 		<list key="replacehistory">
-			<item value=",,green"/>
-			<item value=",green,green,"/>
-			<item value=",green,black,"/>
+			<item value="&quot;ls=black,0,d&quot;"/>
+			<item value="&quot;ls=grey25,0,d&quot;"/>
+			<item value=""/>
+			<item value=";"/>
+			<item value="r=1000,green,"/>
+			<item value="r=450,green"/>
+			<item value="r=400,green"/>
+			<item value=",green,green,1"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="314" key="DIALOG_WIDTH"/>
+		<item value="294" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="554" key="DIALOG_HEIGHT"/>
+		<item value="562" key="DIALOG_HEIGHT"/>
 		<item value="1100" key="DIALOG_X_ORIGIN"/>
 		<item value="186" key="DIALOG_Y_ORIGIN"/>
 	</section>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- generated on 2019-04-13 22:36:09.846894 by $Id: randomTrips.py 23999 2017-04-21 09:04:47Z behrisch $
+  options: -n comparison.net.xml -b 0 -e 40 -p 2 -r comparison.rou.xml <doubleminus>seed 1234
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="8402997" to="10425128#0"/>
+    <trip id="1" depart="2.00" from="-10425130" to="44069041#0"/>
+    <trip id="2" depart="4.00" from="4900041#3" to="3013109"/>
+    <trip id="3" depart="6.00" from="31401017#1" to="-29900564#1"/>
+    <trip id="4" depart="8.00" from="3998645#1" to="-37591481"/>
+    <trip id="5" depart="10.00" from="-23605595" to="4006674#3"/>
+    <trip id="6" depart="12.00" from="-4006724#2" to="31241835#1"/>
+    <trip id="7" depart="14.00" from="31241816#1" to="-31241851#1"/>
+    <trip id="8" depart="16.00" from="-32270592#0" to="-3013107"/>
+    <trip id="9" depart="18.00" from="-10712011" to="23341293"/>
+    <trip id="10" depart="20.00" from="8364476" to="-28269601"/>
+    <trip id="11" depart="22.00" from="29900561#0" to="113939242#2"/>
+    <trip id="12" depart="24.00" from="30405352" to="-29900564#3"/>
+    <trip id="13" depart="26.00" from="3013107" to="-3998645#0"/>
+    <trip id="14" depart="28.00" from="29900564#4" to="31241855#0"/>
+    <trip id="15" depart="30.00" from="23350930" to="-4006724#0"/>
+    <trip id="16" depart="32.00" from="-3998643#0" to="4900041#1"/>
+    <trip id="17" depart="34.00" from="113939244#1" to="28613727#0"/>
+    <trip id="18" depart="36.00" from="-10712013" to="25472079"/>
+    <trip id="19" depart="38.00" from="-10425128#1" to="-31241848"/>
+</routes>

@@ -26,7 +26,7 @@ f = open('trip.rou.xml','r')
 f3 = open('startOneAfterTrip.rou.xml','w')
 
 nextStart = 0.0
-lastId = 400
+lastId = 427
 for line in f:
 	result = re.search('id=\"([0-9]+)\"',line)
 	

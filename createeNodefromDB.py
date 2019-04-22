@@ -67,7 +67,7 @@ def getClosestENodeBs(radius,minNumOfENodeBs,node, allENodeBs):
 def getX2PairsList(allENodeBs):
 	pairsList = []
 	for node in allENodeBs:
-		node.addCloseNodeId(getClosestENodeBs(500,3,node,allENodeBs))
+		node.addCloseNodeId(getClosestENodeBs(800,3,node,allENodeBs))
 		for closestNodeId in node.closestIds:
 			if ([node.id,closestNodeId] not in pairsList) and ([closestNodeId,node.id] not in pairsList):
 				pairsList.append([node.id,closestNodeId])

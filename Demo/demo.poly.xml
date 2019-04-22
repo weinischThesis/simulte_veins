@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- generated on Wed Nov 30 12:18:34 2011 by SUMO polyconvert Version 0.13.1
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value="erlangen.osm"/>
+        <osm.keep-full-type value="false"/>
+        <type-file value="erlangen.polytypes.xml"/>
+    </input>
+
+    <output>
+        <output-file value="erlangen.poly.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+</configuration>
+-->
+
+<shapes>
+    <poly id="112552150" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-227.19,-47.64 -191.58,-50.57 -185.71,-63.98 -228.86,-63.14 -227.19,-47.64"/>
+	<poly id="1" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-179.68,-52.22 -143.22,-51.17 -141.12,-62.74 -181.43,-62.39 -179.68,-52.22"/>
+	<poly id="2" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-126.40,-51.52 -66.11,-53.97 -64.70,-67.64 -127.10,-64.49 -126.40,-51.52"/>
+	<poly id="3" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-60.15,-53.97 -4.76,-54.32 -6.51,-68.35 -55.94,-68.00 -60.15,-53.97"/>
+	<poly id="4" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-0.56,-56.43 49.57,-56.78 49.57,-68.35 -2.66,-66.94 -0.56,-56.43"/>
+	<poly id="5" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="61.84,-58.53 132.65,-60.63 133.35,-71.50 60.44,-70.45 61.84,-58.53"/>
+	<poly id="6" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="137.20,-62.04 195.74,-61.34 196.80,-72.90 136.15,-69.75 137.20,-62.04"/>
+	<poly id="7" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-227.00,100.96 -189.49,99.91 -189.84,85.19 -228.40,83.79 -227.00,100.96"/>
+	<poly id="8" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-186.69,99.91 -145.68,99.21 -145.33,82.38 -185.64,85.19 -186.69,99.91"/>
+	<poly id="9" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-146.73,78.53 -142.52,35.41 -166.01,35.41 -165.31,79.23 -146.73,78.53"/>
+	<poly id="10" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-227.87,80.12 -207.08,79.27 -204.96,36.01 -229.56,38.13 -227.87,80.12"/>
+	<poly id="11" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-229.14,32.62 -206.66,30.50 -207.08,-4.71 -230.41,-4.28 -229.14,32.62"/>
+	<poly id="12" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-229.99,-8.10 -209.63,-8.95 -211.75,-42.88 -229.99,-41.18 -229.99,-8.10"/>
+	<poly id="13" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-165.94,29.65 -144.31,30.92 -143.04,-6.40 -166.37,-5.98 -165.94,29.65"/>
+	<poly id="14" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-166.37,-11.49 -143.46,-11.49 -143.04,-46.27 -165.09,-45.00 -166.37,-11.49"/>
+	<poly id="15" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-61.68,95.19 -4.02,94.35 -5.28,83.83 -60.00,86.35 -61.68,95.19"/>
+	<poly id="16" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-0.65,92.24 55.33,91.40 53.22,82.14 0.61,84.67 -0.65,92.24"/>
+	<poly id="17" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-108.73,78.53 -104.52,35.41 -128.01,35.41 -127.31,79.23 -108.73,78.53"/>
+	<poly id="18" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-127.94,29.65 -106.31,30.92 -105.04,-6.40 -128.37,-5.98 -127.94,29.65"/>
+	<poly id="19" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-126.37,-11.49 -105.46,-11.49 -105.04,-46.27 -127.09,-45.00 -126.37,-11.49"/>
+	<poly id="20" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-130.38,97.90 -66.46,94.16 -65.06,84.83 -127.58,84.37 -130.38,97.90"/>
+	<poly id="21" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="-0.56,-56.43 49.57,-56.78 49.57,-68.35 -2.66,-66.94 -0.56,-56.43"/>
+	<poly id="22" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="31.98,74.57 53.91,75.97 52.98,40.98 30.58,38.18 31.98,74.57"/>
+	<poly id="23" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="30.11,33.98 50.18,35.38 50.55,-5.51 29.32,-6.72 30.11,33.98"/>
+	<poly id="24" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="28.86,-10.39 47.62,-12.46 47.62,-52.13 27.56,-50.76 28.86,-10.39"/>
+	<poly id="25" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="68.13,91.48 130.59,90.57 129.68,77.35 67.68,74.15 68.13,91.48"/>
+	<poly id="26" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="134.69,87.83 193.50,86.01 197.15,74.15 136.06,75.52 134.69,87.83"/>
+	<poly id="27" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="195.33,68.23 197.15,28.11 172.99,25.37 169.80,68.23 195.33,68.23"/>
+	<poly id="28" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="173.75,21.90 196.17,23.46 196.65,-21.15 176.31,-20.39 173.75,21.90"/>
+	<poly id="29" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="176.68,-23.41 194.77,-27.17 195.14,-57.69 175.93,-55.81 176.68,-23.41"/>
+	<poly id="30" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="68.17,70.41 90.03,71.16 93.79,41.02 69.68,37.25 68.17,70.41"/>
+	<poly id="31" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="67.80,33.49 91.16,34.24 86.26,-4.94 66.29,-4.94 67.80,33.49"/>
+	<poly id="32" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="66.79,-12.05 82.62,-16.10 80.78,-52.18 63.84,-50.71 66.79,-12.05"/>
+</shapes>

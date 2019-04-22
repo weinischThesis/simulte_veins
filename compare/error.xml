@@ -1,0 +1,8 @@
+Warning: No connection between edge '30350449' and edge '-28269601' found.
+Warning: No route for vehicle '36.0' found.
+Warning: Teleporting vehicle '36.0'; waited too long (wrong lane), lane='30350449_0', time=480.00.
+Warning: No connection between edge '30350449' and edge '-28269601' found.
+Warning: No route for vehicle '62.0' found.
+Warning: Vehicle '36.0' ends teleporting on edge '-28269601', time 480.00.
+Warning: Teleporting vehicle '62.0'; waited too long (wrong lane), lane='30350449_0', time=790.10.
+Warning: Vehicle '62.0' ends teleporting on edge '-28269601', time 790.10.

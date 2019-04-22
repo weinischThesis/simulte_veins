@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on So 14 Apr 2019 01:59:33 CEST by SUMO gui Version 0.30.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="comparison.net.xml"/>
+        <route-files value="comparison.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="output3.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="50000"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <error-log value="error.xml"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="0.0" depart="0.00" departLane="8402997_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="71.90" arrivalLane="10425128#0_0" arrivalPos="55.52" arrivalSpeed="16.21" duration="71.90" routeLength="667.34" waitSteps="0" timeLoss="32.97" rerouteNo="1" devices="tripinfo_0.0 routing_0.0" vType="DEFAULT_VEHTYPE" speedFactor="1.00" vaporized=""/>
+</tripinfos>

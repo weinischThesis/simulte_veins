@@ -41,12 +41,12 @@ def getLaneIdsList(lanesWithDistance):
 	return laneIds
 def createNewNetFile(laneIds,removingIds):
 	f = open('erlangen.net.xml','r')
-	f2 = open('erlangenAvailable.net.xml', 'w')
+	f2 = open('mathematicalAvailable.net.xml', 'w')
 	removingString = []
 	replacingString = []
 	for laneId in removingIds:
 		removingString.append('id=\"%s\" '%(laneId))
-		replacingString.append('id=\"%s\" disallow=\"all\" '%(laneId))
+		replacingString.append('id=\"%s\" disallow=\"custom1\" '%(laneId))
 	for line in f:
 	    for check, rep in zip(removingString, replacingString):
 		line = line.replace(check, rep)
@@ -69,19 +69,6 @@ def checkIfAllEdgesUsed():
 	#print("Num Of Edges:%s\n"%(len(allEdges)))
 	#print("Num Of CheckedEdges:%s\n"%(len(checkedEdges)))
 	return [x for x in allEdges if x not in checkedEdges] == []
-
-
-def findRandomTripVars():
-	for i in range(1,11):
-		t = 16+i
-		command = "~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 2500 -p 10 -r trip.rou.xml --seed 12388 --intermediate 19"
-		print("Seed: %i"%(i))
-		os.system(command)
-		if checkIfAllEdgesUsed():
-			print("Found Seed: %i"%(i))
-			break
-
-#~/sumo-0.30.0/tools/randomTrips.py -n erlangen.net.xml --fringe-factor 10 -b 0 -e 25 -p 0.1 -r trip.rou.xml --seed 12388 --intermediate 19
 
 
 
@@ -109,7 +96,7 @@ counter = 1
 margin= 25
 allENodeBs = []
 availableLanesList = []
-# UPDATE SELECTED CELLS
+
 for row in cur.fetchall():
 	xSumo = row[15]
 	ySumo = row[16]

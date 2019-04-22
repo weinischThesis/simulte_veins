@@ -1,4 +1,4 @@
- // 
+// 
 //                           SimuLTE
 // 
 // This file is part of a software released under the license included in file
@@ -52,7 +52,7 @@ module Car
         bool d2dCapable = default(false);
         string nicType = d2dCapable ? "LteNicUeD2D" : "LteNicUe";
 
-        //# Network Layer specs
+        //# Network Layer specs	
         string networkLayerType = default("IPv4NetworkLayer");
         string routingTableType = default("IPv4RoutingTable");
         *.interfaceTableModule = default(absPath(".interfaceTable"));
@@ -101,7 +101,8 @@ module Car
             @display("p=49.068,22.968");
         }
         routeChecker: MapChecker {
-            
+
+            @display("p=57.420002,288.144");
         }
     connections allowunconnected:
         //# 

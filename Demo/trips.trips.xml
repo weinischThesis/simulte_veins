@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- generated on 2019-04-22 16:29:32.063571 by $Id: randomTrips.py 23999 2017-04-21 09:04:47Z behrisch $
+  options: -n demo.net.xml -r demo.rou.xml -e 20
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="gneE31" to="-gneE31"/>
+    <trip id="1" depart="1.00" from="-gneE34" to="-gneE21"/>
+    <trip id="2" depart="2.00" from="-gneE31" to="gneE42"/>
+    <trip id="3" depart="3.00" from="-gneE21" to="gneE42"/>
+    <trip id="4" depart="4.00" from="-gneE42" to="gneE13"/>
+    <trip id="5" depart="5.00" from="gneE32" to="gneE42"/>
+    <trip id="6" depart="6.00" from="-gneE21" to="gneE34"/>
+    <trip id="7" depart="7.00" from="-gneE13" to="-gneE13"/>
+    <trip id="8" depart="8.00" from="-gneE44" to="gneE30"/>
+    <trip id="9" depart="9.00" from="-gneE30" to="-gneE35"/>
+    <trip id="10" depart="10.00" from="gneE32" to="gneE35"/>
+    <trip id="11" depart="11.00" from="gneE21" to="-gneE13"/>
+    <trip id="12" depart="12.00" from="gneE34" to="-gneE34"/>
+    <trip id="13" depart="13.00" from="-gneE44" to="-gneE30"/>
+    <trip id="14" depart="14.00" from="gneE36" to="-gneE32"/>
+    <trip id="15" depart="15.00" from="-gneE30" to="-gneE13"/>
+    <trip id="16" depart="16.00" from="gneE34" to="gneE31"/>
+    <trip id="17" depart="17.00" from="-gneE30" to="gneE31"/>
+    <trip id="18" depart="18.00" from="gneE35" to="-gneE32"/>
+    <trip id="19" depart="19.00" from="-gneE44" to="gneE32"/>
+</routes>

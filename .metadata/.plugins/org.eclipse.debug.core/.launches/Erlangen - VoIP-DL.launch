@@ -15,7 +15,7 @@
 <stringAttribute key="org.omnetpp.launch.ADDITIONAL_ARG" value=""/>
 <intAttribute key="org.omnetpp.launch.BATCH_SIZE" value="1"/>
 <stringAttribute key="org.omnetpp.launch.CMDENV_EXPRESS_MODE" value=""/>
-<stringAttribute key="org.omnetpp.launch.CONFIG_NAME" value="VoIP-DL"/>
+<stringAttribute key="org.omnetpp.launch.CONFIG_NAME" value=""/>
 <stringAttribute key="org.omnetpp.launch.EXECUTABLE" value="/Erlangen/Erlangen"/>
 <stringAttribute key="org.omnetpp.launch.IMAGE_PATH" value="${opp_image_path:/Erlangen}"/>
 <stringAttribute key="org.omnetpp.launch.INI_FILES" value="omnetpp.ini"/>
